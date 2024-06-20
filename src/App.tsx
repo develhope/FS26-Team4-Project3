@@ -8,7 +8,7 @@ import Login3 from "./components/Login/Login3";
 function App() {
   return (
     <div>
-      <Login2 />
+      <Setting />
     </div>
   );
 }
