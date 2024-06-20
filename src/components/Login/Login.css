@@ -54,11 +54,45 @@ input[type="text"]::placeholder {
 input[type="text"] {
   background-color: transparent;
   padding: 0.8rem;
-  border: none;
+
   font-size: 1rem;
 }
 
 .spotlight {
   z-index: -1;
   width: 10rem;
+}
+
+input[type="date"]::placeholder {
+  color: #e2e8f0;
+  background-color: transparent;
+}
+
+input[type="date"] {
+  background-color: transparent;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+input[type="password"]::placeholder {
+  color: #e2e8f0;
+  background-color: transparent;
+}
+
+input[type="password"] {
+  background-color: transparent;
+  padding: 0.8rem;
+
+  font-size: 1rem;
+}
+
+input[type="password"]::placeholder {
+  color: #e2e8f0;
+  background-color: transparent;
+}
+
+input[type="select"] {
+  background-color: transparent;
+  padding: 0.8rem;
+  font-size: 1rem;
 }

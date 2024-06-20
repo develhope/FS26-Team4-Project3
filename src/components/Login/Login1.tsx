@@ -8,7 +8,7 @@ function Login() {
           <img src={colored_logo} alt="" />
         </div>
         <div className="welcomeText">
-          <h2>Benvenuto</h2>
+          <h2 className="font-bold">Benvenuto</h2>
         </div>
         <div className="splashFormContainer">
           <h6 className="font-sans text-center m-1 text-lg">
@@ -61,7 +61,7 @@ function Login() {
             <a href="#">Password dimenticata?</a>
           </div>
         </div>
-        <button className="text-center bg-purple w-64  h-12 rounded-sm">
+        <button className="text-center bg-purple w-64  h-12 rounded-sm ">
           ACCEDI
         </button>
       </div>
