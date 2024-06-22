@@ -4,11 +4,17 @@ import "../src/components/Login/Login.css";
 import "./index.css";
 import Login2 from "./components/Login/Login2";
 import Login3 from "./components/Login/Login3";
+import CardFeed from "./components/Cards/CardFeed";
+import { PostMain } from "./components/Posts/PostMain";
+import { FeedProfile } from "./components/ProfilePage/FeedProfile";
+import MessageCenter from "./components/Messages/MessageCenter";
 
 function App() {
   return (
     <div>
-      <Setting />
+      <CardFeed />
+      <PostMain />
+      <FeedProfile />
     </div>
   );
 }
