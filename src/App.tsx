@@ -8,13 +8,18 @@ import CardFeed from "./components/Cards/CardFeed";
 import { PostMain } from "./components/Posts/PostMain";
 import { FeedProfile } from "./components/ProfilePage/FeedProfile";
 import MessageCenter from "./components/Messages/MessageCenter";
+import { Chat } from "./components/Messages/Chat";
 
 function App() {
   return (
     <div>
+      {/*
       <CardFeed />
       <PostMain />
       <FeedProfile />
+      */}
+      <MessageCenter />
+      <Chat />
     </div>
   );
 }

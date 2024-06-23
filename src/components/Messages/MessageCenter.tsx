@@ -7,32 +7,40 @@ import "././message.css";
 export function MessageCenter() {
   return (
     <div>
-      <div className="searching">
+      <div className="Searching rounded-lg">
         <img src={search} alt="search user" />
         <input type="text" placeholder="Cerca utente" />
       </div>
-      <div>
+      <div className="Message-center">
         <h1>Messaggi</h1>
         <ul>
-          <li>
+          <li className="Pop-mess rounded-lg">
             <img src={dog} alt="" />
-            <p>Utente 1</p>
-            <p className="bg-red">Anteprima Messaggio</p>
+            <div>
+              <h3>Utente 1</h3>
+              <p>Anteprima Messaggio</p>
+            </div>
           </li>
-          <li>
+          <li className="Pop-mess rounded-lg">
             <img src={cat} alt="" />
-            <p>Utente 1</p>
-            <p>Anteprima Messaggio</p>
+            <div>
+              <h3>Utente 2</h3>
+              <p>Anteprima Messaggio</p>
+            </div>
           </li>
-          <li>
+          <li className="Pop-mess rounded-lg">
             <img src={fish} alt="" />
-            <p>Utente 1</p>
-            <p>Anteprima Messaggio</p>
+            <div>
+              <h3>Utente 3</h3>
+              <p>Anteprima Messaggio</p>
+            </div>
           </li>
-          <li>
+          <li className="Pop-mess rounded-lg">
             <img src={dog} alt="" />
-            <p>Utente 1</p>
-            <p>Anteprima Messaggio</p>
+            <div>
+              <h3>Utente 4</h3>
+              <p>Anteprima Messaggio</p>
+            </div>
           </li>
         </ul>
       </div>
