@@ -85,13 +85,19 @@ input[type="password"] {
   font-size: 1rem;
 }
 
-input[type="password"]::placeholder {
+input[type="number"] {
+  background-color: transparent;
+  padding: 0.8rem;
+  font-size: 1rem;
+}
+
+input[type="number"]::placeholder {
   color: #e2e8f0;
   background-color: transparent;
 }
 
 input[type="select"] {
   background-color: transparent;
-  padding: 0.8rem;
+
   font-size: 1rem;
 }

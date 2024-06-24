@@ -1,6 +1,6 @@
 import colored_logo from "../../assets/logo/colored_logo.png";
 
-function Login() {
+function Login1() {
   return (
     <>
       <div className="splashSection">
@@ -52,8 +52,8 @@ function Login() {
             </svg>
 
             <input
-              type="text"
-              placeholder="Email o nome utente"
+              type="password"
+              placeholder="Password"
               className="font-sans"
             />
           </div>
@@ -69,4 +69,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Login1;
