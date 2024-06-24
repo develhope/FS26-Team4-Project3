@@ -5,12 +5,22 @@ import "./index.css";
 import Login1 from "./components/Login/Login1";
 import Login2 from "./components/Login/Login2";
 import Login3 from "./components/Login/Login3";
-import LoginA from "./components/Login/LoginA";
+import CardFeed from "./components/Cards/CardFeed";
+import { PostMain } from "./components/Posts/PostMain";
+import { FeedProfile } from "./components/ProfilePage/FeedProfile";
+import MessageCenter from "./components/Messages/MessageCenter";
+import { Chat } from "./components/Messages/Chat";
 
 function App() {
   return (
     <div>
-      <LoginA />
+      {/*
+      <CardFeed />
+      <PostMain />
+      <FeedProfile />
+      */}
+      <MessageCenter />
+      <Chat />
     </div>
   );
 }
