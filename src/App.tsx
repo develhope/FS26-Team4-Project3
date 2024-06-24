@@ -10,6 +10,7 @@ import { PostMain } from "./components/Posts/PostMain";
 import { FeedProfile } from "./components/ProfilePage/FeedProfile";
 import MessageCenter from "./components/Messages/MessageCenter";
 import { Chat } from "./components/Messages/Chat";
+import SwitchProfile from "./components/Login/SwitchProfile";
 
 function App() {
   return (
@@ -19,8 +20,9 @@ function App() {
       <PostMain />
       <FeedProfile />
       */}
-      <MessageCenter />
-      <Chat />
+      {/* <MessageCenter />
+      <Chat /> */}
+      <SwitchProfile />
     </div>
   );
 }
