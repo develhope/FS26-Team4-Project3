@@ -9,6 +9,7 @@ export default {
       green: "#499b73",
       yellow: "#fde16f",
       purple: "#823982",
+      white: "#ffffff"
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
