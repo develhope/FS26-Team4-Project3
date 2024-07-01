@@ -14,6 +14,13 @@ import ProfileHeader from "./components/ProfilePage/ProfileHeader";
 import ProfileStats from "./components/ProfilePage/ProfileStats";
 import ProfileActions from "./components/ProfilePage/ProfileActions";
 import { ProfileGallery } from "./components/ProfilePage/ProfileGallery";
+import AccountManagement from "./components/Settings/AccountManagement";
+import Notification from "./components/Settings/Notification";
+import PravacyAccount from "./components/Settings/PravicyAccount";
+import SettingFriends from "./components/Settings/SettingFriends";
+import SettingInteractions from "./components/Settings/SettingInteractions";
+import SettingLanguage from "./components/Settings/SettingLanguage";
+import SettingHelp from "./components/Settings/SettingHelp";
 
 function App() {
   return (
@@ -25,10 +32,14 @@ function App() {
       */}
       {/* <MessageCenter />
       <Chat /> */}
-      <ProfileHeader />
+      {/*  <ProfileHeader />
       <ProfileStats />
       <ProfileActions />
-      <ProfileGallery />
+      <ProfileGallery /> */}
+      <Setting />
+      {/* <AccountManagement /> */}
+      {/* <Notification /> */}
+      {/* <PravacyAccount /> */}
     </div>
   );
 }
