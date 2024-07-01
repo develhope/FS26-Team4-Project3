@@ -124,11 +124,16 @@ table {
 }
 
 :root {
-  background-color: #252342;
-  font-family: Poppins;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   width: 480px;
   margin: 0 auto;
   height: 100vh;
+}
+
+body {
+  background-color: #252342
 }
 
 @tailwind base;
