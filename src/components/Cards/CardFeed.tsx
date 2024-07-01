@@ -6,7 +6,7 @@ import "../Cards/card.css";
 
 export function CardFeed() {
   return (
-    <div className="Post rounded-lg">
+      <div className="Post rounded-lg">
       <div>
         <img src={ai12} alt="post-random" className="Random-img" />
       </div>

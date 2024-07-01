@@ -3,10 +3,14 @@ import dog from "../../assets/user_avatars/dog.png";
 import cat from "../../assets/user_avatars/cat.png";
 import fish from "../../assets/user_avatars/fish.png";
 import "././message.css";
+import MessagesHeaderNavbar from "../Navbars/MessagesHeaderNavbar";
+import FooterNavbar from "../Navbars/FooterNavbar";
 
 export function MessageCenter() {
   return (
     <div>
+      <MessagesHeaderNavbar />
+      <div>
       <div className="Searching rounded-lg">
         <img src={search} alt="search user" />
         <input type="text" placeholder="Cerca utente" />
@@ -44,6 +48,8 @@ export function MessageCenter() {
           </li>
         </ul>
       </div>
+    </div>
+      <FooterNavbar />
     </div>
   );
 }

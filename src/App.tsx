@@ -1,5 +1,5 @@
 import "../src/components/Login/Login.css";
-import CardFeed from "./components/Cards/CardFeed";
+import Feed from "./components/Cards/Feed";
 import Login1 from "./components/Login/Login1";
 import Login2 from "./components/Login/Login2";
 import Login3 from "./components/Login/Login3";
@@ -20,9 +20,9 @@ function App() {
         <Route path="/login2" element={<Login2 />} />
         <Route path="/login3" element={<Login3 />} />
         <Route path="/LoginA" element={<LoginA />} />
-        <Route path="/cardfeed" element={<CardFeed />} />
+        <Route path="/feed" element={<Feed />} />
         <Route path="/profilepage" element={<ProfilePage />} />
-        <Route path="/settingsmainpage" element={<SettingsMainPage />} />
+        <Route path="/settings" element={<SettingsMainPage />} />
       </Routes>
     </BrowserRouter>
   );

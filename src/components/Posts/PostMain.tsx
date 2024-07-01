@@ -9,10 +9,14 @@ import paw from "../../assets/post/paw.png";
 import comments from "../../assets/post/comments.png";
 import share from "../../assets/post/share.png";
 import "../Posts/posts.css";
+import EditorHeaderNavbar from "../Navbars/EditorHeaderNavbar";
+import FooterNavbar from "../Navbars/FooterNavbar";
 
 export function PostMain() {
   return (
     <div>
+      <EditorHeaderNavbar />
+      <div>
       <div className="Post rounded-lg">
         <div>
           <img src={ai12} alt="post-random" className="Random-img" />
@@ -42,6 +46,8 @@ export function PostMain() {
           <img src={ai7} alt="img-ai-6" />
         </div>
       </div>
+    </div>
+      <FooterNavbar />
     </div>
   );
 }

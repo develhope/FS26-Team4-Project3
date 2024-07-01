@@ -1,6 +1,11 @@
+import SettingsFooterNavbar from "../Navbars/SettingsFooterNavbar";
+import SettingsHeaderNavbar from "../Navbars/SettingsHeaderNavbar";
+
 export default function SettingsMainPage() {
   return (
-    <div className="bg-purple-500 text-white h-screen p-4">
+    <div>
+      <SettingsHeaderNavbar />
+      <div className="bg-purple-500 text-white h-screen p-4">
       <h1 className=" text-2xl font-bold mb-4">Impostazioni</h1>
       <ul className="space-y-2">
         <li className="flex items-center justify-between">
@@ -74,6 +79,8 @@ export default function SettingsMainPage() {
           </span>
         </li>
       </ul>
+    </div>
+      <SettingsFooterNavbar />
     </div>
   );
 }

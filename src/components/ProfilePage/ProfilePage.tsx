@@ -7,6 +7,8 @@ import ai4 from "../../assets/random_imgs/ai4.jpg";
 import ai7 from "../../assets/random_imgs/ai7.jpg";
 import ai3 from "../../assets/random_imgs/ai3.jpeg";
 import { ChangeEvent, useEffect, useRef, useState } from "react";
+import ProfileHeaderNavbar from "../Navbars/ProfileHeaderNavbar";
+import FooterNavbar from "../Navbars/FooterNavbar";
 
 interface ImageState {
   file: File | null;
@@ -44,6 +46,8 @@ export default function ProfilePage() {
 
   return (
     <div>
+      <ProfileHeaderNavbar />
+      <div>
       <img src={ai3} alt="Pofile Cover" className="w-full h-40 object-cover" />
       <input
         type="file"
@@ -91,6 +95,8 @@ export default function ProfilePage() {
         <CardPreview img={ai4} />
         <CardPreview img={ai7} />
       </div>
+    </div>
+      <FooterNavbar />
     </div>
   );
 }
