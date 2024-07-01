@@ -1,5 +1,5 @@
 import Login from "./components/Login/Login1";
-import Setting from "./components/Settings/SettingMainPage";
+import SettingsMainPage from "./components/Settings/SettingsMainPage";
 import "../src/components/Login/Login.css";
 import "./index.css";
 import Login1 from "./components/Login/Login1";
@@ -14,21 +14,37 @@ import ProfileHeader from "./components/ProfilePage/ProfileHeader";
 import ProfileStats from "./components/ProfilePage/ProfileStats";
 import ProfileActions from "./components/ProfilePage/ProfileActions";
 import { ProfileGallery } from "./components/ProfilePage/ProfileGallery";
+import FooterNavbar from "./components/Navbars/FooterNavbar";
+import ProfileHeaderNavbar from "./components/Navbars/ProfileHeaderNavbar";
+import FeedHeaderNavbar from "./components/Navbars/FeedHeaderNavbar";
+import MessagesHeaderNavbar from "./components/Navbars/MessagesHeaderNavbar";
+import ChatHeaderNavbar from "./components/Navbars/ChatHeaderNavbar";
+import SettingsFooterNavbar from "./components/Navbars/SettingsFooterNavbar";
+import SettingsHeaderNavbar from "./components/Navbars/SettingsHeaderNavbar";
+
 
 function App() {
   return (
     <div>
       {/*
+      <FeedHeaderNavbar />
       <CardFeed />
       <PostMain />
-      <FeedProfile />
-      */}
-      {/* <MessageCenter />
-      <Chat /> */}
+      <FooterNavbar />*/}
+      {/*<MessagesHeaderNavbar />*/}
+      {/*<ChatHeaderNavbar />
+      <MessageCenter />
+      <Chat />
+      <FooterNavbar />*/}
+      {/*<ProfileHeaderNavbar />
       <ProfileHeader />
       <ProfileStats />
       <ProfileActions />
       <ProfileGallery />
+      <FooterNavbar />*/}
+      <SettingsHeaderNavbar />
+      <SettingsMainPage />
+      <SettingsFooterNavbar />
     </div>
   );
 }

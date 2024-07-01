@@ -1,4 +1,4 @@
-export default function Setting() {
+export default function SettingsMainPage() {
   return (
     <div className="bg-purple-500 text-white h-screen p-4">
       <h1 className="text-center text-2xl font-bold mb-4">Impostazioni</h1>
