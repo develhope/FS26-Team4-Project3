@@ -21,6 +21,7 @@ import MessagesHeaderNavbar from "./components/Navbars/MessagesHeaderNavbar";
 import ChatHeaderNavbar from "./components/Navbars/ChatHeaderNavbar";
 import SettingsFooterNavbar from "./components/Navbars/SettingsFooterNavbar";
 import SettingsHeaderNavbar from "./components/Navbars/SettingsHeaderNavbar";
+import EditorHeaderNavbar from "./components/Navbars/EditorHeaderNavbar";
 
 
 function App() {
@@ -42,7 +43,8 @@ function App() {
       <ProfileActions />
       <ProfileGallery />
       <FooterNavbar />*/}
-      <SettingsHeaderNavbar />
+      {/*<SettingsHeaderNavbar />*/}
+      <EditorHeaderNavbar />
       <SettingsMainPage />
       <SettingsFooterNavbar />
     </div>
