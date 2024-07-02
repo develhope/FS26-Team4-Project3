@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import colored_logo from "../../assets/logo/colored_logo.png";
-
+import "../../components/Login/Login.css";
 function Login1() {
   return (
     <>
-      <div className="splashSection">
+      <div className="splashSection spotlight">
         <div className="SplashLogoContainer">
           <img src={colored_logo} alt="" />
         </div>
@@ -61,15 +61,15 @@ function Login1() {
         </div>
         <Link to="/feed">
           <button className="text-center bg-purple w-64 h-12 rounded-sm">
-          ACCEDI
+            ACCEDI
           </button>
         </Link>
         <h6 className="font-sans text-center m-1 text-lg">
           Non hai ancora un account?
         </h6>
         <Link to="/login2">
-          <button className="text-center bg-purple w-64 h-12 rounded-sm ">
-          REGISTRATI
+          <button className="text-center bg-purple w-64 h-12 rounded-sm mb-5">
+            REGISTRATI
           </button>
         </Link>
       </div>

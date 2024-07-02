@@ -1,13 +1,12 @@
 .splashSection {
-  background-color: #1e1b4b;
   color: #e2e8f0;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   height: 100vh;
-  gap: 2rem;
-  z-index: 1;
+  gap: 1rem;
+  z-index: 0;
 }
 
 .SplashLogoContainer {
@@ -24,6 +23,15 @@
   border-radius: 0.5rem;
 }
 
+.generalFocus:focus {
+  background-color: #252342;
+  color: #e2e8f0;
+}
+
+.splashForm:focus {
+  background-color: #252342;
+  color: #e2e8f0;
+}
 .welcomeText h2 {
   text-align: center;
   font-size: 2.5rem;
@@ -59,18 +67,43 @@ input[type="text"] {
 
 .spotlight {
   display: flex;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.spotlight::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/splash/spotlight.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.splashSpotlight {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
   background-image: url("../../assets/splash/spotlight.png");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-input[type="date"]::placeholder {
+input::placeholder {
   color: #e2e8f0;
   background-color: transparent;
 }
 
-input[type="date"] {
+input {
   background-color: transparent;
   padding: 0.8rem;
   font-size: 1rem;
@@ -84,7 +117,6 @@ input[type="password"]::placeholder {
 input[type="password"] {
   background-color: transparent;
   padding: 0.8rem;
-
   font-size: 1rem;
 }
 
@@ -99,8 +131,19 @@ input[type="number"]::placeholder {
   background-color: transparent;
 }
 
-input[type="select"] {
+input[type="date"] {
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  width: 10rem;
+  height: 3rem;
   background-color: transparent;
+  color: #ffffff;
+  padding: 0.5rem;
+  outline: none;
+}
 
-  font-size: 1rem;
+input[type="date"]:focus {
+  background-color: #252342;
+  color: #e2e8f0;
+  border-color: #e2e8f0;
 }

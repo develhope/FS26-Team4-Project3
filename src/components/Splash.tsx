@@ -6,7 +6,7 @@ import fish_dark from "../assets/splash/fish_dark.png";
 export default function Splash() {
   return (
     <>
-      <div className="splashSection spotlight flex-auto align-center text-5xl">
+      <div className="splashSection splashSpotlight  flex-auto align-center text-5xl">
         <h6 className="mt-7">PetVerse</h6>
         <div className="SplashLogoContainer mb-1.5">
           <img src={colored_logo} alt="" />

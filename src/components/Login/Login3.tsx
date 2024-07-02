@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
 import "../../index.css";
+import colored_logo from "../../assets/logo/colored_logo.png";
+import "../../components/Login/Login.css";
 
 export default function Login3() {
   return (
     <>
-      <div className="splashSection flex-auto align-center justify-center ">
+      <div className="splashSection flex-auto align-center justify-center spotlight">
+        <div className="SplashLogoContainer">
+          <img src={colored_logo} alt="" className="z" />
+        </div>
         <h2 className="text-xl font-sans">Iscriviti</h2>
-        <select name="paesi" id="paesi" className="font-sans splashForm mb-8">
+        <select name="paesi" id="paesi" className=" splashForm p-3">
           <option value="italia">Italia</option>
           <option value="stati-uniti">Stati Uniti</option>
           <option value="canada">Canada</option>
@@ -18,12 +23,8 @@ export default function Login3() {
           <option value="giappone">Giappone</option>
           <option value="cina">Cina</option>
         </select>
-        <div className="splashFormContainer font-sans">
-          <input
-            type="text"
-            placeholder="Nome"
-            className="font-sans splashForm mb-8"
-          />
+        <div className="splashFormContainer ">
+          <input type="text" placeholder="Nome" className=" splashForm my-1" />
           <input type="text" placeholder="Cognome" className=" splashForm" />
         </div>
         <input
@@ -41,19 +42,21 @@ export default function Login3() {
           placeholder="Ridigita la Password"
           className="font-sans splashForm"
         />
-        <div className="flex-row">
-          <input type="checkbox" className="font-sans " />
-          <p className="text-sm font-sans">Ho letto e accetto i </p>
-          <a href="#" className="underline text-sm font-sans">
-            Termini di servizio
-          </a>
+        <div className="flex">
+          <input type="checkbox" className="" />
+          <div className="ml-3">
+            <p className="text-sm font-sans">Ho letto e accetto i </p>
+            <a href="#" className="underline text-sm font-sans">
+              Termini di servizio
+            </a>
+          </div>
         </div>
         <Link to="/switchpet">
           <button
             type="submit"
             className="text-center bg-purple w-64  h-12 rounded-sm font-sans"
           >
-          CI SIAMO QUASI...
+            CI SIAMO QUASI...
           </button>
         </Link>
       </div>
