@@ -6,6 +6,13 @@ import Login3 from "./components/Login/Login3";
 import LoginA from "./components/Login/LoginA";
 import SwitchProfile from "./components/Login/SwitchProfile";
 import ProfilePage from "./components/ProfilePage/ProfilePage";
+import AccountManagement from "./components/Settings/AccountManagement";
+import Notification from "./components/Settings/Notification";
+import PrivacyAccount from "./components/Settings/PrivacyAccount";
+import SettingFriends from "./components/Settings/SettingFriends";
+import SettingHelp from "./components/Settings/SettingHelp";
+import SettingInteractions from "./components/Settings/SettingInteractions";
+import SettingLanguage from "./components/Settings/SettingLanguage";
 import SettingsMainPage from "./components/Settings/SettingsMainPage";
 import Splash from "./components/Splash";
 import "./index.css";
@@ -25,6 +32,13 @@ function App() {
           <Route path="/feed" element={<Feed />} />
           <Route path="/profilepage" element={<ProfilePage />} />
           <Route path="/settings" element={<SettingsMainPage />} />
+          <Route path="/settings/accountmanagement" element={<AccountManagement />} />
+          <Route path="/settings/notification" element={<Notification />} />
+          <Route path="/settings/privacyaccount" element={<PrivacyAccount />} />
+          <Route path="/settings/friends" element={<SettingFriends />} />
+          <Route path="/settings/help" element={<SettingHelp />} />
+          <Route path="/settings/interactions" element={<SettingInteractions />} />
+          <Route path="/settings/language" element={<SettingLanguage />} />
         </Routes>
       </BrowserRouter>
     </div>
