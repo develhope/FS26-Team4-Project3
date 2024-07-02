@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import colored_logo from "../assets/logo/colored_logo.png";
 import cat_dark from "../assets/splash/cat_dark.png";
 import dog_dark from "../assets/splash/dog_dark.png";
@@ -8,9 +9,11 @@ export default function Splash() {
     <>
       <div className="splashSection splashSpotlight  flex-auto align-center text-5xl">
         <h6 className="mt-7">PetVerse</h6>
-        <div className="SplashLogoContainer mb-1.5">
-          <img src={colored_logo} alt="" />
-        </div>
+        <Link to="/login1" className="cursor-auto">
+          <div className="SplashLogoContainer mb-1.5">
+            <img src={colored_logo} alt="" />
+          </div>
+        </Link>
         <div className="flex-col">
           <div className="w-24 h-auto rotate-45">
             <img src={fish_dark} alt="fish" />

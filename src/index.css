@@ -127,13 +127,14 @@ table {
   background-color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-
-  width: 480px;
+  width: 100%;
+  max-width: 480px;
   margin: 0 auto;
   height: 100vh;
 }
 body {
   background-color: #252342;
+  margin: 0;
 }
 
 @tailwind base;

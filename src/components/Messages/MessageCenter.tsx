@@ -8,7 +8,7 @@ import FooterNavbar from "../Navbars/FooterNavbar";
 
 export function MessageCenter() {
   return (
-    <div>
+    <div className="bg-blue">
       <MessagesHeaderNavbar />
       <div>
       <div className="Searching rounded-lg">

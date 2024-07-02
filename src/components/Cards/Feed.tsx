@@ -4,7 +4,7 @@ import CardFeed from "./CardFeed";
 
 export default function Feed() {
   return (
-    <div>
+    <div className="relative min-h-screen bg-blue flex flex-col">
       <FeedHeaderNavbar />
       <CardFeed />
       <FooterNavbar />

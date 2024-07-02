@@ -87,12 +87,14 @@ export default function SettingsMainPage() {
               <span className="mr-2">{">"}</span>
             </span>
           </li>
-          <li className="flex items-center justify-between">
-            <span>Esci</span>
-            <span className="ml-auto">
-              <span className="mr-2">{">"}</span>
-            </span>
-          </li>
+          <Link to="/login1">
+            <li className="flex items-center justify-between">
+              <span>Esci</span>
+              <span className="ml-auto">
+                <span className="mr-2">{">"}</span>
+              </span>
+            </li>
+          </Link>
         </ul>
       </div>
       <SettingsFooterNavbar />

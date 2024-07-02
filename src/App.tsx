@@ -5,6 +5,8 @@ import Login2 from "./components/Login/Login2";
 import Login3 from "./components/Login/Login3";
 import LoginA from "./components/Login/LoginA";
 import SwitchProfile from "./components/Login/SwitchProfile";
+import { Chat } from "./components/Messages/Chat";
+import MessageCenter from "./components/Messages/MessageCenter";
 import ProfilePage from "./components/ProfilePage/ProfilePage";
 import AccountManagement from "./components/Settings/AccountManagement";
 import Notification from "./components/Settings/Notification";
@@ -31,6 +33,8 @@ function App() {
           <Route path="/registerpet" element={<LoginA />} />
           <Route path="/feed" element={<Feed />} />
           <Route path="/profilepage" element={<ProfilePage />} />
+          <Route path="/messagecenter" element={<MessageCenter />} />
+          <Route path="/chat" element={<Chat />} />
           <Route path="/settings" element={<SettingsMainPage />} />
           <Route path="/settings/accountmanagement" element={<AccountManagement />} />
           <Route path="/settings/notification" element={<Notification />} />

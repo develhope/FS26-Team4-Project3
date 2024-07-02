@@ -28,7 +28,7 @@ function Login1() {
               />
             </svg>
             <input
-              type="text"
+              type="email"
               placeholder="Email o nome utente"
               className="font-sans"
             />

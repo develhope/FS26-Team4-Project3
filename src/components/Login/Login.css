@@ -53,12 +53,14 @@
   flex-direction: column;
 }
 
-input[type="text"]::placeholder {
+input[type="text"]::placeholder,
+input[type="email"]::placeholder {
   color: #e2e8f0;
   background-color: transparent;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
   background-color: transparent;
   padding: 0.8rem;
 
@@ -146,4 +148,9 @@ input[type="date"]:focus {
   background-color: #252342;
   color: #e2e8f0;
   border-color: #e2e8f0;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
 }

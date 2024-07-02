@@ -1,5 +1,6 @@
 .Post {
-  width: 30em;
+  max-width: 25rem;
+  min-width: 25rem;
   height: fit-content;
   background-color: white;
   padding: 1em;
@@ -8,8 +9,6 @@
 }
 
 .Random-img {
-  height: 32vh;
-  width: 35vh;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
