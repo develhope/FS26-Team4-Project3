@@ -1,7 +1,32 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import colored_logo from "../../assets/logo/colored_logo.png";
 import "../../components/Login/Login.css";
+import { userAccess, User } from "./LoginContext";
+import { useState } from "react";
+
 function Login1() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+
+  function handleLogin() {
+    const foundUser: User | undefined = userAccess.find(
+      (user) => user.email === email
+    );
+
+    if (!foundUser) {
+      alert("Utente non esiste, prova a registrarti.");
+      return;
+    }
+
+    if (foundUser.password !== password) {
+      alert("Password sbagliata, riprova.");
+      return;
+    }
+
+    navigate("/feed");
+  }
+
   return (
     <>
       <div className="splashSection spotlight">
@@ -30,6 +55,8 @@ function Login1() {
             <input
               type="email"
               placeholder="Email o nome utente"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               className="font-sans"
             />
           </div>
@@ -52,6 +79,8 @@ function Login1() {
             <input
               type="password"
               placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               className="font-sans"
             />
           </div>
@@ -59,11 +88,14 @@ function Login1() {
             <a href="#">Password dimenticata?</a>
           </div>
         </div>
-        <Link to="/feed">
-          <button className="text-center bg-purple w-64 h-12 rounded-sm">
-            ACCEDI
-          </button>
-        </Link>
+
+        <button
+          onClick={handleLogin}
+          className="text-center bg-purple w-64 h-12 rounded-sm"
+        >
+          ACCEDI
+        </button>
+
         <h6 className="font-sans text-center m-1 text-lg">
           Non hai ancora un account?
         </h6>
