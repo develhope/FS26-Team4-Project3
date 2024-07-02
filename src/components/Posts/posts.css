@@ -23,16 +23,19 @@
 }
 
 .Post {
-  display: grid;
+  width: 30em;
+  height: fit-content;
   background-color: white;
-  margin-top: 2.5em;
+  margin-top: 0.75em;
   padding: 1em;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.75em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Random-img {
-  height: 45vh;
-  width: 45vh;
+  height: 32vh;
+  width: 35vh;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -71,8 +74,8 @@
 }
 .User-caption input {
   color: black;
-  margin-top: -1em;
   border: none;
+  margin-left: -0.5em;
 }
 
 .User-caption input::placeholder {
