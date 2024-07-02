@@ -58,8 +58,11 @@ input[type="text"] {
 }
 
 .spotlight {
-  z-index: -1;
-  width: 10rem;
+  display: flex;
+  background-image: url("../../assets/splash/spotlight.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 input[type="date"]::placeholder {
