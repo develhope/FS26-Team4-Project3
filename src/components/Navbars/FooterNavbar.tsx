@@ -6,7 +6,7 @@ import cat from "../../assets/user_avatars/cat.png";
 
 export default function FooterNavbar() {
     return (
-    <div className="bg-blue b-0 max-h-12 w-full px-7 flex flex-row justify-between items-center">
+    <div className="bg-blue b-0 fixed max-h-12 w-full px-7 flex flex-row justify-between items-center">
         <button><img src={search} alt="search content" height={30} width={30} /></button>
         <button><img src={add} alt="add post" height={36} width={36} /></button>
         <button><img src={original_logo} alt="reload feed" height={48} width={48} /></button>

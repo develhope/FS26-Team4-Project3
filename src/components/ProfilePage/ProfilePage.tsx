@@ -48,7 +48,7 @@ export default function ProfilePage() {
     <div>
       <ProfileHeaderNavbar />
       <div>
-      <img src={ai3} alt="Pofile Cover" className="w-full h-40 object-cover" />
+      <img src={ai3} alt="Pofile Cover" className="w-full h-48 object-cover" />
       <input
         type="file"
         accept="image/*"
@@ -68,23 +68,23 @@ export default function ProfilePage() {
           />
         )}
       </div>
-      <h2 className="mt-4 text-center font-sans text-white">Username</h2>
-      <div className="flex justify-around font-sans p-4 text-white">
-        <div className="text-center">
+      <h2 className="mt-4 text-center font-sans text-white font-bold text-xl">Username</h2>
+      <div className="flex justify-center gap-10 font-sans p-3 text-white">
+        <div className="text-center text-sm">
           <h3>Amici</h3>
           <p>100</p>
         </div>
-        <div className="text-center">
+        <div className="text-center text-sm">
           <h3>Followers</h3>
           <p>150</p>
         </div>
       </div>
-      <div className="flex justify-around font-sans p-4">
-        <button className="bg-purple text-white py-2 px-4 rounded">
-          SEGUI
-        </button>
-        <button className="bg-teal text-white py-2 px-4 rounded">
+      <div className="flex justify-center font-sans p-4 gap-4">
+        <button className="bg-teal text-white py-2 px-4 rounded-lg text-xs w-40 h-11 font-semibold">
           AGGIUNGI
+        </button>
+        <button className="bg-purple text-white py-2 px-4 rounded-lg text-xs w-40 h-11 font-semibold">
+          SEGUI
         </button>
       </div>
       <div className="grid grid-cols-3 gap-2 p-4">
