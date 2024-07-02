@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function PravacyAccount() {
+export default function PrivacyAccount() {
   const [isPrivate, setIsPrivate] = useState(false);
   const [isPrivateImage, setIsPrivateImage] = useState(false);
 
