@@ -4,7 +4,6 @@ import Login1 from "./components/Login/Login1";
 import Login2 from "./components/Login/Login2";
 import Login3 from "./components/Login/Login3";
 import LoginA from "./components/Login/LoginA";
-import { PostMain } from "./components/Posts/PostMain";
 import ProfilePage from "./components/ProfilePage/ProfilePage";
 import SettingsMainPage from "./components/Settings/SettingsMainPage";
 import Splash from "./components/Splash";
@@ -26,7 +25,6 @@ function App() {
           <Route path="/settings" element={<SettingsMainPage />} />
         </Routes>
       </BrowserRouter>
-      <PostMain />
     </div>
   );
 }
