@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../../index.css";
 
 export default function Login3() {
@@ -47,12 +48,14 @@ export default function Login3() {
             Termini di servizio
           </a>
         </div>
-        <button
-          type="submit"
-          className="text-center bg-purple w-64  h-12 rounded-sm font-sans"
-        >
-          ACCEDI
-        </button>
+        <Link to="/switchpet">
+          <button
+            type="submit"
+            className="text-center bg-purple w-64  h-12 rounded-sm font-sans"
+          >
+          CI SIAMO QUASI...
+          </button>
+        </Link>
       </div>
     </>
   );

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../../index.css";
 
 export default function Login2() {
@@ -10,12 +11,14 @@ export default function Login2() {
             type="date"
             className="border-solid border-2 border-white rounded"
           />
-          <button
-            type="submit"
-            className="text-center bg-purple w-64  h-12 rounded-sm "
-          >
-            ACCEDI
-          </button>
+          <Link to="/login3">
+            <button
+              type="submit"
+              className="text-center bg-purple w-64  h-12 rounded-sm "
+            >
+            PROCEDI
+            </button>
+          </Link>
         </div>
       </div>
     </>

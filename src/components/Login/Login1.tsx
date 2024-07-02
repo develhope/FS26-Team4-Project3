@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import colored_logo from "../../assets/logo/colored_logo.png";
 
 function Login1() {
@@ -11,9 +12,6 @@ function Login1() {
           <h2 className="font-bold">Benvenuto</h2>
         </div>
         <div className="splashFormContainer">
-          <h6 className="font-sans text-center m-1 text-lg">
-            Accedi o registrati
-          </h6>
           <div className="splashForm mb-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +59,19 @@ function Login1() {
             <a href="#">Password dimenticata?</a>
           </div>
         </div>
-        <button className="text-center bg-purple w-64  h-12 rounded-sm ">
+        <Link to="/feed">
+          <button className="text-center bg-purple w-64 h-12 rounded-sm">
           ACCEDI
-        </button>
+          </button>
+        </Link>
+        <h6 className="font-sans text-center m-1 text-lg">
+          Non hai ancora un account?
+        </h6>
+        <Link to="/login2">
+          <button className="text-center bg-purple w-64 h-12 rounded-sm ">
+          REGISTRATI
+          </button>
+        </Link>
       </div>
     </>
   );

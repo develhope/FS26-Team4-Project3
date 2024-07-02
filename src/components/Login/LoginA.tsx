@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function LoginA() {
   return (
     <>
@@ -35,12 +37,14 @@ export default function LoginA() {
           className="font-sans splashForm "
         />
 
-        <button
-          type="submit"
-          className="text-center bg-purple w-64  h-12 rounded-sm font-sans"
-        >
-          ACCEDI
-        </button>
+        <Link to="/switchpet">
+          <button
+            type="submit"
+            className="text-center bg-purple w-64  h-12 rounded-sm font-sans"
+          >
+          REGISTRA ANIMALE
+          </button>
+        </Link>
       </div>
     </>
   );
