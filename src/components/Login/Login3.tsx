@@ -1,9 +1,31 @@
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../index.css";
 import colored_logo from "../../assets/logo/colored_logo.png";
 import "../../components/Login/Login.css";
+import { useState } from "react";
+import { addUser } from "./LoginContext";
 
 export default function Login3() {
+  const navigate = useNavigate();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  function handleRegistration() {
+    if (!email || !password) {
+      alert("Inserisci email e password.");
+      return;
+    }
+
+    const newUser = {
+      email: email,
+      password: password,
+    };
+
+    addUser(newUser);
+
+    navigate("/switchpet");
+  }
+
   return (
     <>
       <div className="splashSection flex-auto align-center justify-center spotlight">
@@ -29,12 +51,16 @@ export default function Login3() {
         </div>
         <input
           type="text"
-          placeholder="Nome Utente"
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
           className="font-sans splashForm"
         />
         <input
           type="password"
           placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
           className="font-sans splashForm"
         />
         <input
@@ -51,14 +77,13 @@ export default function Login3() {
             </a>
           </div>
         </div>
-        <Link to="/switchpet">
-          <button
-            type="submit"
-            className="text-center bg-purple w-64  h-12 rounded-sm font-sans"
-          >
-            CI SIAMO QUASI...
-          </button>
-        </Link>
+        <button
+          type="submit"
+          className="text-center bg-purple w-64  h-12 rounded-sm font-sans"
+          onClick={handleRegistration}
+        >
+          CI SIAMO QUASI...
+        </button>
       </div>
     </>
   );
