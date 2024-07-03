@@ -14,7 +14,7 @@ export default function Splash() {
             <img src={colored_logo} alt="" />
           </div>
         </Link>
-        <div className="flex-col">
+        <div className="flex flex-col justify-center">
           <div className="w-24 h-auto rotate-45">
             <img src={fish_dark} alt="fish" />
           </div>

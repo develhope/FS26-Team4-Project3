@@ -53,6 +53,7 @@ export function Chat() {
             onKeyPress={handleKeyPress}
             placeholder="Scrivi un messaggio..."
           />
+
           <img
             src={send}
             alt="invia"

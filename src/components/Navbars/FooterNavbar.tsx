@@ -11,9 +11,11 @@ export default function FooterNavbar() {
       <button>
         <img src={search} alt="search content" height={30} width={30} />
       </button>
-      <button>
-        <img src={add} alt="add post" height={36} width={36} />
-      </button>
+      <Link to="/newpost">
+        <button>
+          <img src={add} alt="add post" height={36} width={36} />
+        </button>
+      </Link>
       <Link to="/feed">
         <button>
           <img src={original_logo} alt="reload feed" height={48} width={48} />

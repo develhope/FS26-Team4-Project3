@@ -7,6 +7,7 @@ import LoginA from "./components/Login/LoginA";
 import SwitchProfile from "./components/Login/SwitchProfile";
 import { Chat } from "./components/Messages/Chat";
 import MessageCenter from "./components/Messages/MessageCenter";
+import { PostMain } from "./components/Posts/PostMain";
 import ProfilePage from "./components/ProfilePage/ProfilePage";
 import AccountManagement from "./components/Settings/AccountManagement";
 import Notification from "./components/Settings/Notification";
@@ -32,16 +33,23 @@ function App() {
           <Route path="/switchpet" element={<SwitchProfile />} />
           <Route path="/registerpet" element={<LoginA />} />
           <Route path="/feed" element={<Feed />} />
+          <Route path="/newpost" element={<PostMain />} />
           <Route path="/profilepage" element={<ProfilePage />} />
           <Route path="/messagecenter" element={<MessageCenter />} />
           <Route path="/chat" element={<Chat />} />
           <Route path="/settings" element={<SettingsMainPage />} />
-          <Route path="/settings/accountmanagement" element={<AccountManagement />} />
+          <Route
+            path="/settings/accountmanagement"
+            element={<AccountManagement />}
+          />
           <Route path="/settings/notification" element={<Notification />} />
           <Route path="/settings/privacyaccount" element={<PrivacyAccount />} />
           <Route path="/settings/friends" element={<SettingFriends />} />
           <Route path="/settings/help" element={<SettingHelp />} />
-          <Route path="/settings/interactions" element={<SettingInteractions />} />
+          <Route
+            path="/settings/interactions"
+            element={<SettingInteractions />}
+          />
           <Route path="/settings/language" element={<SettingLanguage />} />
         </Routes>
       </BrowserRouter>
