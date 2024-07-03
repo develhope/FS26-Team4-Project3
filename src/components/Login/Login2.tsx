@@ -4,9 +4,9 @@ import colored_logo from "../../assets/logo/colored_logo.png";
 import { useState } from "react";
 
 export default function Login2() {
-  const navigate = useNavigate(); // Hook useNavigate per la navigazione
+  const navigate = useNavigate(); 
 
-  const [birthdate, setBirthdate] = useState(""); // Stato per l'età inserita
+  const [birthdate, setBirthdate] = useState(""); 
 
   const handleProceed = () => {
     const today = new Date();
