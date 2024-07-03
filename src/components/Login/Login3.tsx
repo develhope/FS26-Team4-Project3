@@ -9,10 +9,18 @@ export default function Login3() {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [nome, setNome] = useState("");
+  const [cognome, setCognome] = useState("");
 
   function handleRegistration() {
-    if (!email || !password) {
-      alert("Inserisci email e password.");
+    if (!email || !password || !confirmPassword || !nome || !cognome) {
+      alert("Per favore completa tutti i campi.");
+      return;
+    }
+
+    if (password !== confirmPassword) {
+      alert("La password e la conferma password non corrispondono.");
       return;
     }
 
@@ -46,8 +54,20 @@ export default function Login3() {
           <option value="cina">Cina</option>
         </select>
         <div className="splashFormContainer ">
-          <input type="text" placeholder="Nome" className=" splashForm my-1" />
-          <input type="text" placeholder="Cognome" className=" splashForm" />
+          <input
+            type="text"
+            placeholder="Nome"
+            value={nome}
+            onChange={(e) => setNome(e.target.value)}
+            className=" splashForm my-1"
+          />
+          <input
+            type="text"
+            placeholder="Cognome"
+            value={cognome}
+            onChange={(e) => setCognome(e.target.value)}
+            className=" splashForm"
+          />
         </div>
         <input
           type="text"
@@ -66,6 +86,8 @@ export default function Login3() {
         <input
           type="password"
           placeholder="Ridigita la Password"
+          value={confirmPassword}
+          onChange={(e) => setConfirmPassword(e.target.value)}
           className="font-sans splashForm"
         />
         <div className="flex">
