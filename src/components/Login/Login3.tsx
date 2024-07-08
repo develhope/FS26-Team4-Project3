@@ -3,10 +3,12 @@ import "../../index.css";
 import colored_logo from "../../assets/logo/colored_logo.png";
 import "../../components/Login/Login.css";
 import { useState } from "react";
-import { addUser } from "./LoginContext";
+import { useDispatch } from "react-redux";
+import { registerUser } from "../../features/register/registerUserSlice";
 
 export default function Login3() {
   const navigate = useNavigate();
+  const dispatch = useDispatch();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -24,12 +26,7 @@ export default function Login3() {
       return;
     }
 
-    const newUser = {
-      email: email,
-      password: password,
-    };
-
-    addUser(newUser);
+    dispatch(registerUser({ email, password, nome, cognome }));
 
     navigate("/switchpet");
   }
