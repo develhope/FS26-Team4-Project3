@@ -34,18 +34,18 @@ export default function Login2() {
         <div className="SplashLogoContainer">
           <img src={colored_logo} alt="" />
         </div>
-        <h2 className="text-3xl font-sans">Inserisci la tua data di nascita</h2>
-        <div className=" flex flex-col items-center gap-2 w-64 ">
+        <h2 className="text-xl font-sans">Inserisci la tua data di nascita</h2>
+        <div className=" flex flex-col items-center gap-2 my-3">
           <input
             type="date"
-            className="border-solid border-2 border-white rounded "
+            className="border-solid border-2 border-white rounded"
             value={birthdate}
             onChange={(e) => setBirthdate(e.target.value)}
           />
           <div>
             <button
               type="submit"
-              className="text-center bg-purple w-64  h-12 rounded-sm"
+              className="text-center bg-purple w-64 h-12 rounded-sm my-4"
               onClick={handleProceed}
             >
               PROCEDI

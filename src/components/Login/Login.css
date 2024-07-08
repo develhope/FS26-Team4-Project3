@@ -14,7 +14,8 @@
   width: 20rem;
 }
 
-.splashForm {
+.splashForm,
+.splashForm-select {
   display: flex;
   align-items: center;
   background-color: transparent;
@@ -23,14 +24,20 @@
   border-radius: 0.5rem;
 }
 
+.splashForm-select {
+  width: 14.474rem;
+}
+
 .generalFocus:focus {
   background-color: #252342;
   color: #e2e8f0;
 }
 
-.splashForm:focus {
+.splashForm:focus,
+.splashForm-select:focus {
   background-color: #252342;
   color: #e2e8f0;
+  outline: none;
 }
 .welcomeText h2 {
   text-align: center;
@@ -48,6 +55,9 @@
   text-align: center;
 }
 
+.Form-container {
+  align-items: center;
+}
 .SplashFormContainer {
   display: flex;
   flex-direction: column;
@@ -64,7 +74,6 @@ input[type="email"],
 input[type="select"] {
   background-color: transparent;
   padding: 0.8rem;
-
   font-size: 1rem;
 }
 
@@ -137,7 +146,7 @@ input[type="number"]::placeholder {
 input[type="date"] {
   border: 2px solid white;
   border-radius: 0.5rem;
-  width: 10rem;
+  width: 14rem;
   height: 3rem;
   background-color: transparent;
   color: #ffffff;
