@@ -5,16 +5,19 @@ import dog from "../../assets/user_avatars/dog.png";
 import fish from "../../assets/user_avatars/fish.png";
 import new_user from "../../assets/user_avatars/new_user.png";
 
-interface Animal {
-  id: number;
-  name: string;
-  type: "Cane" | "Gatto" | "Altro";
-  breed: string;
-}
-
 const PetSelect: React.FC = () => {
   const { animals } = useAnimal();
-  const registeredAnimals = animals.slice(0, 3); // Limita fino a 3 animali
+
+  const seenIds = new Set<number>();
+  const registeredAnimals = animals
+    .filter((animal) => {
+      if (seenIds.has(animal.id)) {
+        return false;
+      }
+      seenIds.add(animal.id);
+      return true;
+    })
+    .slice(0, 3);
 
   return (
     <div className="splashSection justify-center">
@@ -36,6 +39,7 @@ const PetSelect: React.FC = () => {
           <Link to="/registerpet">
             <div className="flex flex-col items-center mx-2 my-2">
               <img src={new_user} alt="new-user" className="w-32" />
+              <p className="text-center font-bold">Nuovo Animale</p>
             </div>
           </Link>
         )}
@@ -52,7 +56,7 @@ const PetSelect: React.FC = () => {
   );
 };
 
-function getAnimalImage(type: "Cane" | "Gatto" | "Altro") {
+function getAnimalImage(type: string) {
   switch (type) {
     case "Cane":
       return dog;

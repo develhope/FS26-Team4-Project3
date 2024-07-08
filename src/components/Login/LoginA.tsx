@@ -1,19 +1,13 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { useAnimal } from "../../assets/custom-hooks/AnimalContext";
-
-interface Animal {
-  name: string;
-  type: string;
-  breed: string;
-  gender: string;
-  age: string;
-}
+import { useAnimal, Animal } from "../../assets/custom-hooks/AnimalContext";
 
 export default function LoginA() {
   const navigate = useNavigate();
   const { addAnimal } = useAnimal();
-  const [animal, setAnimal] = useState<Animal>({
+  const [animal, setAnimal] = useState<
+    Omit<Animal, "id"> & { type: Animal["type"] | "" }
+  >({
     name: "",
     type: "",
     breed: "",
@@ -29,12 +23,21 @@ export default function LoginA() {
   };
 
   const handleRegisterAnimal = () => {
-    if (!animal.name || !animal.breed || !animal.age) {
+    if (!animal.name || !animal.breed || !animal.age || !animal.type) {
       alert("Per favore completa tutti i campi.");
       return;
     }
 
-    addAnimal(animal);
+    if (
+      animal.type !== "Cane" &&
+      animal.type !== "Gatto" &&
+      animal.type !== "Altro"
+    ) {
+      alert("Per favore seleziona un tipo valido di animale.");
+      return;
+    }
+
+    addAnimal({ ...animal, id: Date.now() });
     navigate("/selectpet");
   };
 
@@ -70,7 +73,7 @@ export default function LoginA() {
           placeholder="Razza"
           value={animal.breed}
           onChange={handleInputChange}
-          className="splashForm"
+          className="font-sans splashForm"
         />
       </div>
       <select
@@ -93,16 +96,6 @@ export default function LoginA() {
         onChange={handleInputChange}
         className="font-sans splashForm mb-4"
       />
-      <div>
-        <p className="text-center mb-2 font-bold">Scegli la foto profilo</p>
-        <input
-          type="file"
-          id="avatar"
-          name="avatar"
-          accept="image/png, image/jpeg"
-          placeholder="carica la foto del tuo animale"
-        />
-      </div>
       <button
         type="submit"
         onClick={handleRegisterAnimal}

@@ -1,10 +1,12 @@
 import { createContext, useContext, useState, ReactNode } from "react";
 
-interface Animal {
+export interface Animal {
   id: number;
   name: string;
-  type: "Cane" | "Gatto" | "Altro";
+  type: string;
   breed: string;
+  gender: string;
+  age: string;
 }
 
 interface AnimalContextType {
@@ -14,7 +16,7 @@ interface AnimalContextType {
 
 const AnimalContext = createContext<AnimalContextType>({
   animals: [],
-  addAnimal: (animal: Animal) => {},
+  addAnimal: () => {},
 });
 
 export const useAnimal = () => useContext(AnimalContext);
@@ -24,10 +26,17 @@ interface AnimalProviderProps {
 }
 
 export const AnimalProvider: React.FC<AnimalProviderProps> = ({ children }) => {
-  const [animals, setAnimals] = useState<Animal[]>([]);
+  const [animals, setAnimals] = useState<Animal[]>(() => {
+    const storedAnimals = localStorage.getItem("animals");
+    return storedAnimals ? JSON.parse(storedAnimals) : [];
+  });
 
   const addAnimal = (animal: Animal) => {
-    setAnimals((prevAnimals) => [...prevAnimals, animal]);
+    setAnimals((prevAnimals) => {
+      const updatedAnimals = [...prevAnimals, animal];
+      localStorage.setItem("animals", JSON.stringify(updatedAnimals));
+      return updatedAnimals;
+    });
   };
 
   return (
