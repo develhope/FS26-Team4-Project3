@@ -3,11 +3,14 @@ import colored_logo from "../../assets/logo/colored_logo.png";
 import "../../components/Login/Login.css";
 import { userAccess, User } from "./LoginContext";
 import { useState } from "react";
+import { useDispatch } from "react-redux";
+import { loginUser } from "../../features/login/loginSlice";
 
 function Login1() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   function handleLogin() {
     const foundUser: User | undefined = userAccess.find(
@@ -23,7 +26,7 @@ function Login1() {
       alert("Password sbagliata, riprova.");
       return;
     }
-
+    dispatch(loginUser({ email: foundUser.email }));
     navigate("/feed");
   }
 

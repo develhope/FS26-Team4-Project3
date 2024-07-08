@@ -1,12 +1,12 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import "../../index.css";
 import colored_logo from "../../assets/logo/colored_logo.png";
 import { useState } from "react";
 
 export default function Login2() {
-  const navigate = useNavigate(); 
+  const navigate = useNavigate();
 
-  const [birthdate, setBirthdate] = useState(""); 
+  const [birthdate, setBirthdate] = useState("");
 
   const handleProceed = () => {
     const today = new Date();
