@@ -40,8 +40,8 @@ export default function Login3() {
         <div className="SplashLogoContainer">
           <img src={colored_logo} alt="" className="z" />
         </div>
-        <h2 className="text-xl font-sans">Iscriviti</h2>
-        <form className="Form-container my-2">
+        <h2 className="text-xl font-sans">Inserisci i tuoi dati</h2>
+        <form className="Form-container">
           <select
             name="paesi"
             id="paesi"
@@ -91,24 +91,25 @@ export default function Login3() {
             placeholder="Ridigita la Password"
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
-            className="font-sans splashForm my-2"
+            className="font-sans splashForm"
           />
-          <div className="flex">
-            <input type="checkbox" className="" />
-            <div className="ml-3 flex ">
-              <p className="text-sm font-sans">Ho letto e accetto i </p>
-              <a href="#" className="underline text-sm font-sans mx-1">
-                Termini di servizio
-              </a>
-            </div>
-          </div>
         </form>
+        <div className="flex">
+          <input type="checkbox" className="" />
+          <div className="ml-3 flex ">
+            <p className="text-sm font-sans">Ho letto e accetto i </p>
+            <a href="#" className="underline text-sm font-sans mx-1">
+              Termini di servizio
+            </a>
+          </div>
+        </div>
+
         <button
           type="submit"
           className="text-center bg-purple w-64  h-12 rounded-sm font-sans"
           onClick={handleRegistration}
         >
-          CI SIAMO QUASI...
+          ISCRIVITI
         </button>
       </div>
     </div>

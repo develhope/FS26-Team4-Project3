@@ -34,7 +34,7 @@ export default function Login2() {
         <div className="SplashLogoContainer">
           <img src={colored_logo} alt="" />
         </div>
-        <h2 className="text-2xl font-sans">Inserisci la tua data di nascita</h2>
+        <h2 className="text-xl font-sans">Inserisci la tua data di nascita</h2>
         <div className=" flex flex-col items-center gap-2 my-3">
           <input
             type="date"

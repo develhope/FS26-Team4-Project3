@@ -25,7 +25,7 @@
 }
 
 .splashForm-select {
-  width: 20.3rem;
+  width: 14.474rem;
 }
 
 .generalFocus:focus {
@@ -55,6 +55,9 @@
   text-align: center;
 }
 
+.Form-container {
+  align-items: center;
+}
 .SplashFormContainer {
   display: flex;
   flex-direction: column;
