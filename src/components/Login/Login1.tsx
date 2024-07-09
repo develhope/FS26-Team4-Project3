@@ -1,7 +1,7 @@
 import { Link, useNavigate } from "react-router-dom";
 import colored_logo from "../../assets/logo/colored_logo.png";
 import "../../components/Login/Login.css";
-import { userAccess, User } from "./LoginContext";
+import { userAccess, User } from "../../assets/custom-hooks/LoginContext";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { loginUser } from "../../features/login/loginSlice";
