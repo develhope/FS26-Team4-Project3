@@ -14,9 +14,9 @@ export function CardFeed() {
   };
 
   return (
-    <div className="Post rounded-lg">
-      <div>
-        <img src={ai12} alt="post-random" className="Random-img" />
+    <div className="post-container rounded-lg">
+      <div className="">
+        <img src={ai12} alt="post-random" />
       </div>
       <div className="Reaction-icons">
         <img

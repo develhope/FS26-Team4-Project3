@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function FooterNavbar() {
   return (
-    <div className="bg-blue max-h-12 w-full px-7 flex flex-row justify-between items-center z-50">
+    <div className="bg-blue max-h-16 w-full px-7 flex flex-row justify-between items-center z-50 fixed bottom-0 left-0 right-0">
       <button>
         <img src={search} alt="search content" height={30} width={30} />
       </button>
@@ -18,7 +18,7 @@ export default function FooterNavbar() {
       </Link>
       <Link to="/feed">
         <button>
-          <img src={original_logo} alt="reload feed" height={48} width={48} />
+          <img src={original_logo} alt="reload feed" height={52} width={52} />
         </button>
       </Link>
       <Link to="/messagecenter">
@@ -33,7 +33,7 @@ export default function FooterNavbar() {
       </Link>
       <Link to="/profilepage">
         <button>
-          <img src={cat} alt="go to profile page" height={52} width={52} />
+          <img src={cat} alt="go to profile page" height={55} width={55} />
         </button>
       </Link>
     </div>
