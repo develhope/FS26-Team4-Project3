@@ -1,14 +1,8 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-
-interface User {
-  email: string;
-  password: string;
-  nome: string;
-  cognome: string;
-}
+import { CompleteUser } from "../../assets/custom-hooks/LoginContext";
 
 interface AccountRegister {
-  users: User[];
+  users: CompleteUser[];
 }
 
 const initialState: AccountRegister = {
@@ -19,7 +13,7 @@ const registerUserSlice = createSlice({
   name: "register",
   initialState,
   reducers: {
-    registerUser: (state, action: PayloadAction<User>) => {
+    registerUser: (state, action: PayloadAction<CompleteUser>) => {
       state.users.push(action.payload);
       localStorage.setItem("users", JSON.stringify(state.users));
     },
