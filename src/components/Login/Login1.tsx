@@ -13,9 +13,7 @@ function Login1() {
   const dispatch = useDispatch();
 
   function handleLogin() {
-    const foundUser: User | undefined = userAccess.find(
-      (user) => user.email === email
-    );
+    const foundUser: User | undefined = userAccess.find((user) => user.email === email);
 
     if (!foundUser) {
       alert("Utente non esiste, prova a registrarti.");
@@ -26,6 +24,7 @@ function Login1() {
       alert("Password sbagliata, riprova.");
       return;
     }
+
     dispatch(loginUser({ email: foundUser.email }));
     navigate("/feed");
   }
@@ -48,8 +47,7 @@ function Login1() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="#e2e8f0"
-                className="size-6"
-              >
+                className="size-6">
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -71,8 +69,7 @@ function Login1() {
                 viewBox="0 0 24 24"
                 strokeWidth={1.5}
                 stroke="#e2e8f0"
-                className="size-6"
-              >
+                className="size-6">
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -93,21 +90,14 @@ function Login1() {
             </div>
           </div>
 
-          <button
-            onClick={handleLogin}
-            className="self-center bg-purple w-56 h-12 rounded-lg font-semibold"
-          >
+          <button onClick={handleLogin} className="self-center bg-purple w-56 h-12 rounded-lg font-semibold">
             ACCEDI
           </button>
 
           <Link to="/login2" className="self-center">
-            <button className=" bg-teal w-56 h-12 rounded-lg mt-3 font-semibold">
-              REGISTRATI
-            </button>
+            <button className=" bg-teal w-56 h-12 rounded-lg mt-3 font-semibold">REGISTRATI</button>
           </Link>
-          <h6 className="font-sans text-center text-md font-">
-            Non hai ancora un account?
-          </h6>
+          <h6 className="font-sans text-center text-md font-">Non hai ancora un account?</h6>
         </div>
       </div>
     </>

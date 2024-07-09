@@ -15,6 +15,7 @@ const registerPetSlice = createSlice({
   reducers: {
     registerPet: (state, action: PayloadAction<Animal>) => {
       state.pets.push(action.payload);
+      localStorage.setItem("animals", JSON.stringify(state.pets));
     },
   },
 });

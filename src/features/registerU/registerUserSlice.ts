@@ -21,6 +21,7 @@ const registerUserSlice = createSlice({
   reducers: {
     registerUser: (state, action: PayloadAction<User>) => {
       state.users.push(action.payload);
+      localStorage.setItem("users", JSON.stringify(state.users));
     },
   },
 });
