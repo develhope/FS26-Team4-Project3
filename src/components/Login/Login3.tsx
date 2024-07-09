@@ -4,7 +4,7 @@ import colored_logo from "../../assets/logo/colored_logo.png";
 import "../../components/Login/Login.css";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { registerUser } from "../../features/register/registerUserSlice";
+import { registerUser } from "../../features/registerU/registerUserSlice";
 
 export default function Login3() {
   const navigate = useNavigate();
@@ -38,9 +38,7 @@ export default function Login3() {
           <img src={colored_logo} alt="" className="-mt-24" />
         </div>
         <div className="-mt-14">
-          <h2 className="text-xl font-sans mb-2 text-center">
-            Inserisci i tuoi dati
-          </h2>
+          <h2 className="text-xl font-sans mb-2 text-center">Inserisci i tuoi dati</h2>
           <form className="Form-container space-y-2 flex flex-col">
             <select name="paesi" id="paesi" className="splashForm-select p-3">
               <option value="italia">Italia</option>
@@ -105,8 +103,7 @@ export default function Login3() {
             <button
               type="submit"
               className=" bg-purple w-56 h-12 rounded-lg font-semibold mt-2"
-              onClick={handleRegistration}
-            >
+              onClick={handleRegistration}>
               ISCRIVITI
             </button>
           </div>
