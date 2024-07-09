@@ -19,13 +19,7 @@ export default function ChatHeaderNavbar() {
         </Link>
 
         <button>
-          <img
-            src={dog}
-            alt="go to user profile"
-            height={80}
-            width={80}
-            className=""
-          />
+          <img src={dog} alt="go to user profile" height={70} width={70} />
         </button>
         <button>
           <h3 className="pr-7 text-white font-bold">Utente 1</h3>

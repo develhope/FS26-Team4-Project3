@@ -10,7 +10,7 @@
 
 .Imgs-block img {
   width: 10em;
-  margin-bottom: 0.65em;
+  padding: 0.25rem;
   cursor: pointer;
 }
 
@@ -19,7 +19,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   background-color: rgba(74, 78, 116, 0.5);
-  padding-top: 0.5em;
+  padding-top: 0.15em;
 }
 
 .Post {
@@ -31,14 +31,6 @@
   margin-bottom: 0.75em;
   margin-left: auto;
   margin-right: auto;
-}
-
-.Random-img {
-  height: 32vh;
-  width: 35vh;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden;
 }
 
 .Reaction-icons {
@@ -75,13 +67,13 @@
 .User-caption input {
   color: black;
   border: none;
-  margin-left: -0.5em;
+  margin-left: 0.25rem;
 }
 
 .User-caption input::placeholder {
   font-size: 1.25em;
   font-family: "Poppins";
-  color: black;
+  color: rgb(0, 0, 0, 0.6);
 }
 
 .User-caption input:focus {

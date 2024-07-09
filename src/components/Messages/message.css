@@ -1,9 +1,7 @@
 .Searching {
-  display: flex;
   background-color: #484373;
-  width: 25em;
-  margin-top: 3em;
 }
+
 .Searching img {
   width: 25px;
   height: 25px;
@@ -13,15 +11,16 @@
 
 .Searching input {
   font-size: 1em;
-  font-family: "Poppins";
-  color: white;
   border: none;
+  color: white;
+  margin-left: 1rem;
 }
 
 .Searching input::placeholder {
   font-size: 1.15em;
   font-family: "Poppins";
   color: white;
+  margin-left: 0.5rem;
 }
 
 .Searching input:focus {

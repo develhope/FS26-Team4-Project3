@@ -23,9 +23,13 @@ export function PostMain() {
     <div>
       <EditorHeaderNavbar />
       <div>
-        <div className="Post rounded-lg">
+        <div className="post-container rounded-lg">
           <div>
-            <img src={mainImage} alt="post-random" className="Random-img" />
+            <img
+              src={mainImage}
+              alt="post-random"
+              className="flex ml-auto mr-auto w-96"
+            />
           </div>
           <div className="Reaction-icons">
             <img src={paw} alt="like" className="Like-paw" />
@@ -34,9 +38,9 @@ export function PostMain() {
           </div>
           <div>
             <p className="User-caption">
-              <strong>nickname:</strong>
+              <strong>username:</strong>
               <span>
-                <input type="text" placeholder="scrivi..." />
+                <input type="text" placeholder="scrivi qualcosa qui" />
               </span>
             </p>
           </div>

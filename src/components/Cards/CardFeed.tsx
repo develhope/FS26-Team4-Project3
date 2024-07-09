@@ -3,10 +3,13 @@ import paw from "../../assets/post/paw.png";
 import like from "../../assets/post/like.png";
 import comments from "../../assets/post/comments.png";
 import share from "../../assets/post/share.png";
-import ai12 from "../../assets/random_imgs/ai12.jpg";
 import "../Cards/card.css";
 
-export function CardFeed() {
+type CardFeedProps = {
+  img: string;
+};
+
+export function CardFeed({ img }: CardFeedProps) {
   const [isLiked, setIsLiked] = useState(false);
 
   const handleLikeClick = () => {
@@ -15,8 +18,8 @@ export function CardFeed() {
 
   return (
     <div className="post-container rounded-lg">
-      <div className="">
-        <img src={ai12} alt="post-random" />
+      <div>
+        <img src={img} alt="post-random" />
       </div>
       <div className="Reaction-icons">
         <img

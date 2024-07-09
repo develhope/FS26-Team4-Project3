@@ -1,44 +1,23 @@
 .Send-mess {
   background-color: #484373;
-  display: flex;
-  width: fit-content;
-  width: 30em;
-  margin-bottom: 0.75em;
-  margin-left: auto;
-  margin-right: auto;
-}
-.Send-mess img {
-  margin-left: 2em;
-  width: 35px;
-  height: 35px;
-  align-self: center;
-  cursor: pointer;
 }
 
 .Send-mess input {
   width: 25em;
   font-size: 1em;
-  font-family: "Poppins";
   color: white;
   border: none;
+  background-color: #484373;
 }
 
 .Send-mess input::placeholder {
   font-size: 1.15em;
-  font-family: "Poppins";
   color: white;
 }
 
 .Send-mess input:focus {
   border: none;
   outline: none;
-}
-
-.Chatting-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  height: 50vh;
 }
 
 .Messages {
@@ -48,7 +27,6 @@
 .Message {
   background-color: #484373;
   color: white;
-  margin-right: 0.75em;
   padding: 0.5em;
   margin-bottom: 0.5em;
   word-wrap: break-word;
