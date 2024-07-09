@@ -9,7 +9,12 @@ export default {
       green: "#499b73",
       yellow: "#fde16f",
       purple: "#823982",
-      white: "#ffffff"
+      white: "#ffffff",
+      "navbar-line": {
+        start: "#7700ff",
+        middle: "#00ffff", 
+        end: "#ffcc00", 
+      },
     },
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
