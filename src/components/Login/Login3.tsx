@@ -33,81 +33,84 @@ export default function Login3() {
 
   return (
     <div>
-      <div className="splashSection flex-auto align-center justify-center spotlight">
+      <div className="splashSection justify-center spotlight">
         <div className="SplashLogoContainer">
-          <img src={colored_logo} alt="" className="z" />
+          <img src={colored_logo} alt="" className="-mt-24" />
         </div>
-        <h2 className="text-xl font-sans">Inserisci i tuoi dati</h2>
-        <form className="Form-container">
-          <select
-            name="paesi"
-            id="paesi"
-            className=" splashForm-select p-3 my-2"
-          >
-            <option value="italia">Italia</option>
-            <option value="stati-uniti">Stati Uniti</option>
-            <option value="canada">Canada</option>
-            <option value="regno-unito">Regno Unito</option>
-            <option value="francia">Francia</option>
-            <option value="germania">Germania</option>
-            <option value="spagna">Spagna</option>
-            <option value="australia">Australia</option>
-            <option value="giappone">Giappone</option>
-            <option value="cina">Cina</option>
-          </select>
-          <input
-            type="text"
-            placeholder="Nome"
-            value={nome}
-            onChange={(e) => setNome(e.target.value)}
-            className=" splashForm my-2"
-          />
-          <input
-            type="text"
-            placeholder="Cognome"
-            value={cognome}
-            onChange={(e) => setCognome(e.target.value)}
-            className=" splashForm my-2"
-          />
-          <input
-            type="text"
-            placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="font-sans splashForm my-2"
-          />
-          <input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            className="font-sans splashForm my-2"
-          />
-          <input
-            type="password"
-            placeholder="Ridigita la Password"
-            value={confirmPassword}
-            onChange={(e) => setConfirmPassword(e.target.value)}
-            className="font-sans splashForm"
-          />
-        </form>
-        <div className="flex">
-          <input type="checkbox" className="" />
-          <div className="ml-3 flex ">
-            <p className="text-sm font-sans">Ho letto e accetto i </p>
-            <a href="#" className="underline text-sm font-sans mx-1">
-              Termini di servizio
-            </a>
+        <div className="-mt-14">
+          <h2 className="text-xl font-sans mb-2 text-center">
+            Inserisci i tuoi dati
+          </h2>
+          <form className="Form-container space-y-2 flex flex-col">
+            <select name="paesi" id="paesi" className="splashForm-select p-3">
+              <option value="italia">Italia</option>
+              <option value="stati-uniti">Stati Uniti</option>
+              <option value="canada">Canada</option>
+              <option value="regno-unito">Regno Unito</option>
+              <option value="francia">Francia</option>
+              <option value="germania">Germania</option>
+              <option value="spagna">Spagna</option>
+              <option value="australia">Australia</option>
+              <option value="giappone">Giappone</option>
+              <option value="cina">Cina</option>
+            </select>
+            <div className="flex space-x-2">
+              <input
+                type="text"
+                placeholder="Nome"
+                value={nome}
+                onChange={(e) => setNome(e.target.value)}
+                className=" splashForm w-28 p-3"
+              />
+              <input
+                type="text"
+                placeholder="Cognome"
+                value={cognome}
+                onChange={(e) => setCognome(e.target.value)}
+                className=" splashForm w-28 p-3"
+              />
+            </div>
+            <input
+              type="email"
+              placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="font-sans splashForm my-2"
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              className="font-sans splashForm my-2"
+            />
+            <input
+              type="password"
+              placeholder="Ridigita la Password"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
+              className="font-sans splashForm"
+            />
+          </form>
+          <div className="flex justify-center my-3">
+            <input type="checkbox" className="" />
+            <div className="ml-3 flex ">
+              <p className="text-sm font-sans">Ho letto e accetto i </p>
+              <a href="#" className="underline text-sm font-sans mx-1">
+                Termini di servizio
+              </a>
+            </div>
+          </div>
+          <div className="flex justify-center">
+            <button
+              type="submit"
+              className=" bg-purple w-56 h-12 rounded-lg font-semibold mt-2"
+              onClick={handleRegistration}
+            >
+              ISCRIVITI
+            </button>
           </div>
         </div>
-
-        <button
-          type="submit"
-          className="text-center bg-purple w-64  h-12 rounded-sm font-sans"
-          onClick={handleRegistration}
-        >
-          ISCRIVITI
-        </button>
       </div>
     </div>
   );

@@ -36,12 +36,12 @@ function Login1() {
         <div className="SplashLogoContainer">
           <img src={colored_logo} alt="" />
         </div>
-        <div className="-mt-9 gap-7 flex flex-col">
+        <div className="-mt-9 flex flex-col">
           <div className="welcomeText">
-            <h2 className="font-bold">Benvenuto</h2>
+            <h2 className="font-bold mb-3">Benvenuto</h2>
           </div>
           <div className="splashFormContainer">
-            <div className="splashForm mb-2">
+            <div className="splashForm mb-3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -64,7 +64,7 @@ function Login1() {
                 className="font-sans"
               />
             </div>
-            <div className="splashForm">
+            <div className="splashForm mb-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -88,26 +88,26 @@ function Login1() {
                 className="font-sans"
               />
             </div>
-            <div className="text-center underline">
+            <div className="text-center underline mb-0.5 text-md">
               <a href="#">Password dimenticata?</a>
             </div>
           </div>
 
           <button
             onClick={handleLogin}
-            className="text-center bg-purple w-64 h-12 rounded-sm"
+            className="self-center bg-purple w-56 h-12 rounded-lg font-semibold"
           >
             ACCEDI
           </button>
 
-          <h6 className="font-sans text-center m-1 text-lg">
-            Non hai ancora un account?
-          </h6>
-          <Link to="/login2">
-            <button className="text-center bg-purple w-64 h-12 rounded-sm mb-5">
+          <Link to="/login2" className="self-center">
+            <button className=" bg-teal w-56 h-12 rounded-lg mt-3 font-semibold">
               REGISTRATI
             </button>
           </Link>
+          <h6 className="font-sans text-center text-md font-">
+            Non hai ancora un account?
+          </h6>
         </div>
       </div>
     </>

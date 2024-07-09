@@ -22,7 +22,7 @@ export default function Login2() {
     }
 
     if (age < 14) {
-      alert("Devi avere almeno 14 anni per registrarti.");
+      alert("Devi avere almeno 14 anni per poterti registrare.");
     } else {
       navigate("/login3");
     }
@@ -34,21 +34,23 @@ export default function Login2() {
         <div className="SplashLogoContainer">
           <img src={colored_logo} alt="" />
         </div>
-        <h2 className="text-xl font-sans">Inserisci la tua data di nascita</h2>
-        <div className=" flex flex-col items-center gap-2 my-3">
+        <h2 className="text-xl font-sans font-semibold">
+          Inserisci la tua data di nascita
+        </h2>
+        <div className="flex flex-col items-center gap-2">
           <input
             type="date"
-            className="border-solid border-2 border-white rounded"
+            className="border-solid border-2 border-white rounded my-2"
             value={birthdate}
             onChange={(e) => setBirthdate(e.target.value)}
           />
           <div>
             <button
               type="submit"
-              className="text-center bg-purple w-64 h-12 rounded-sm my-4"
+              className="self-center bg-purple w-56 h-12 rounded-lg font-semibold mt-2.5"
               onClick={handleProceed}
             >
-              PROCEDI
+              PROSEGUI
             </button>
           </div>
         </div>

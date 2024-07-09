@@ -69,11 +69,15 @@ input[type="email"]::placeholder {
   background-color: transparent;
 }
 
-input[type="text"],
 input[type="email"],
 input[type="select"] {
   background-color: transparent;
   padding: 0.8rem;
+  font-size: 1rem;
+}
+
+input[type="text"] {
+  background-color: transparent;
   font-size: 1rem;
 }
 
@@ -163,7 +167,4 @@ input[type="date"]:focus {
 input[type="email"]:focus,
 input[type="password"]:focus {
   outline: none;
-}
-
-input[type="file"] {
 }
