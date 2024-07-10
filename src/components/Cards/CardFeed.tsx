@@ -35,8 +35,12 @@ export function CardFeed({ img }: CardFeedProps) {
         <p className="User-caption">
           <strong>nickname:</strong> didascalia post
         </p>
-        <p className="Cmnts-tease">Vedi i commenti</p>
-        <input type="text" placeholder="Lascia un commento" />
+        <p className="Cmnts-tease ml-2.5">Vedi i commenti</p>
+        <input
+          type="text"
+          placeholder="Lascia un commento"
+          className="ml-2.5 mb-2"
+        />
       </div>
     </div>
   );

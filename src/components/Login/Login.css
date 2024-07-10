@@ -58,6 +58,7 @@
 .Form-container {
   align-items: center;
 }
+
 .SplashFormContainer {
   display: flex;
   flex-direction: column;

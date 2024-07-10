@@ -59,9 +59,9 @@
 }
 
 .text-dash input::placeholder {
-  font-size: 1.15em;
+  font-size: 1em;
   font-family: "Poppins";
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .text-dash input:focus {

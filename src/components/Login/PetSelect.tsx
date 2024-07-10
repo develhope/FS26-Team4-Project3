@@ -20,8 +20,8 @@ const PetSelect: React.FC = () => {
     .slice(0, 3);
 
   return (
-    <div className="splashSection justify-center">
-      <h1 className="font-sans text-center text-3xl">Accedi</h1>
+    <div className="splashSection flex justify-center">
+      <h1 className="text-center text-3xl">Accedi</h1>
       <div className="flex flex-wrap justify-center mx-2">
         {registeredAnimals.map((animal) => (
           <Link key={animal.id} to={`/profile/${animal.id}`}>
@@ -39,16 +39,16 @@ const PetSelect: React.FC = () => {
           <Link to="/registerpet">
             <div className="flex flex-col items-center mx-2 my-2">
               <img src={new_user} alt="new-user" className="w-32" />
-              <p className="text-center font-bold">Nuovo Animale</p>
+              <p className="text-center">Nuovo Animale</p>
             </div>
           </Link>
         )}
       </div>
-      <div className="my-1">
-        <p className="font-sans text-center mb-4">Oppure</p>
+      <div className="my-1 flex  flex-col justify-center">
+        <p className="text-center mb-2">Oppure</p>
         <Link to="/feed">
-          <button className="text-center bg-purple w-64 h-12 rounded-sm font-sans">
-            ACCEDI COME OSPITE
+          <button className=" bg-purple w-56 h-12 rounded-lg font-semibold mt-2">
+            CONTINUA COME OSPITE
           </button>
         </Link>
       </div>

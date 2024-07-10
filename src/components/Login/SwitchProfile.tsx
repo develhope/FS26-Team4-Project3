@@ -4,10 +4,8 @@ import new_user from "../../assets/user_avatars/new_user.png";
 export default function SwitchProfile() {
   return (
     <div className="splashSection justify-center">
-      <h2 className="font-sans text-center text-2xl">
-        Come vuoi navigare PetVerse?
-      </h2>
-      <p className="font-sans text-center">Registra il tuo primo pet!</p>
+      <h2 className="text-center text-2xl">Come vuoi navigare PetVerse?</h2>
+      <p className="text-center text-2xl -mt-3">Registra il tuo primo pet!</p>
       <div className="flex mx-2">
         <Link to="/registerpet">
           <button>
@@ -16,11 +14,11 @@ export default function SwitchProfile() {
         </Link>
       </div>
       <div className="my-3">
-        <p className="font-sans underline text-center">
+        <p className="font-sans underline text-center mb-0.5">
           Non possiedi un animale?
         </p>
         <Link to="/feed">
-          <button className="text-center bg-purple w-64 h-12 rounded-sm font-sans">
+          <button className="text-center bg-purple w-64 h-12 rounded-lg font-sans">
             CONTINUA SENZA PET
           </button>
         </Link>
