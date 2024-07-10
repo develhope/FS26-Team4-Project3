@@ -24,7 +24,7 @@ const PetSelect: React.FC = () => {
       <h1 className="text-center text-3xl">Accedi</h1>
       <div className="flex flex-wrap justify-center mx-2">
         {registeredAnimals.map((animal) => (
-          <Link to={`/profilepage`}>
+          <Link to={`/feed`}>
             <div className="flex flex-col items-center mx-2 my-2">
               <img
                 src={getAnimalImage(animal.type)}
