@@ -1,5 +1,7 @@
 # PetVerse
 
+<img src="./src/assets/logo/colored_logo.png" alt="PetVerve logo" width="300rem">
+
 **PetVerse**, in sviluppo dal **Team #4** della classe Develhope FS26, nasce dalla visione di creare una piattaforma unica che consenta agli utenti di connettersi attraverso i profili dei loro amici a quattro zampe. 
 Il nostro obiettivo è facilitare le interazioni tra gli animali domestici e i loro proprietari, promuovendo una comunità vivace e sicura.
 
