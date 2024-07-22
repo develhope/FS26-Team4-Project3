@@ -17,25 +17,25 @@ export function CardFeed({ img }: CardFeedProps) {
   };
 
   return (
-    <div className="post-container rounded-lg">
+    <div className="postContainer rounded-lg">
       <div>
         <img src={img} alt="post-random" />
       </div>
-      <div className="Reaction-icons">
+      <div className="reactionIcons">
         <img
           src={isLiked ? like : paw}
           alt="like"
-          className="Like-paw"
+          className="likePaw"
           onClick={handleLikeClick}
         />
-        <img src={comments} alt="comment" className="React-comnts" />
-        <img src={share} alt="share" className="Share-icon" />
+        <img src={comments} alt="comment" className="reactComnts" />
+        <img src={share} alt="share" className="shareIcon" />
       </div>
-      <div className="text-dash">
-        <p className="User-caption">
+      <div className="textDash">
+        <p className="userCaption">
           <strong>nickname:</strong> didascalia post
         </p>
-        <p className="Cmnts-tease ml-2.5">Vedi i commenti</p>
+        <p className="cmntsTease ml-2.5">Vedi i commenti</p>
         <input
           type="text"
           placeholder="Lascia un commento"

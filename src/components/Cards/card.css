@@ -1,4 +1,4 @@
-.post-container {
+.postContainer {
   max-width: 25rem;
   min-width: 25rem;
   height: fit-content;
@@ -9,7 +9,7 @@
   margin-right: auto;
 }
 
-.Reaction-icons {
+.reactionIcons {
   display: flex;
   margin-left: 0.25em;
   margin-top: 0.5em;
@@ -18,22 +18,22 @@
   cursor: pointer;
 }
 
-.React-comnts {
+.reactComnts {
   width: 40px;
 }
 
-.Share-icon {
+.shareIcon {
   width: 40px;
   height: 40px;
   margin-top: 0.25em;
 }
 
-.Like-paw {
+.likePaw {
   height: 45px;
   width: 45px;
 }
 
-.User-caption {
+.userCaption {
   font-size: 1.25em;
   font-family: "Poppins";
   margin-left: 0.5em;
@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 
-.Cmnts-tease {
+.cmntsTease {
   font-size: 1.2em;
   font-family: "Poppins";
   margin-left: 0.75em;
@@ -50,7 +50,7 @@
   cursor: pointer;
 }
 
-.text-dash input {
+.textDash input {
   font-size: 1.15em;
   font-family: "Poppins";
   color: rgba(0, 0, 0);
@@ -58,13 +58,13 @@
   border: none;
 }
 
-.text-dash input::placeholder {
+.textDash input::placeholder {
   font-size: 1em;
   font-family: "Poppins";
   color: rgba(0, 0, 0, 0.5);
 }
 
-.text-dash input:focus {
+.textDash input:focus {
   border: none;
   outline: none;
 }

@@ -31,7 +31,7 @@ export default function Login2() {
   return (
     <>
       <div className="splashSection spotlight align-center ">
-        <div className="SplashLogoContainer">
+        <div className="splashLogoContainer">
           <img src={colored_logo} alt="" />
         </div>
         <h2 className="text-xl font-sans font-semibold">

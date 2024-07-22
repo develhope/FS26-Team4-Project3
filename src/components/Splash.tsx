@@ -26,7 +26,7 @@ export default function Splash() {
             src={colored_logo}
             alt="Logo"
             onClick={handleClick}
-            className="SplashLogoContainer -mt-14 mr-3 cursor-pointer"
+            className="splashLogoContainer -mt-14 mr-3 cursor-pointer"
             style={{ cursor: isLoading ? "not-allowed" : "pointer" }}
           />
         </div>

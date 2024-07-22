@@ -34,12 +34,12 @@ export default function Login3() {
   return (
     <div>
       <div className="splashSection justify-center spotlight">
-        <div className="SplashLogoContainer">
+        <div className="splashLogoContainer">
           <img src={colored_logo} alt="" className="-mt-24" />
         </div>
         <div className="-mt-14">
           <h2 className="text-xl font-sans mb-2 text-center">Inserisci i tuoi dati</h2>
-          <form className="Form-container space-y-2 flex flex-col">
+          <form className="formContainer space-y-2 flex flex-col">
             <select name="paesi" id="paesi" className="splashForm-select p-3">
               <option value="italia">Italia</option>
               <option value="stati-uniti">Stati Uniti</option>

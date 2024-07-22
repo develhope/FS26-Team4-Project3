@@ -149,7 +149,7 @@ body {
     z-index: 0;
   }
 
-  .SplashLogoContainer {
+  .splashLogoContainer {
     height: fit-content;
     width: 20rem;
   }
@@ -195,10 +195,10 @@ body {
     text-align: center;
   }
 
-  .Form-container {
+  .formContainer {
     align-items: center;
   }
-  .SplashFormContainer {
+  .splashFormContainer {
     display: flex;
     flex-direction: column;
   }
@@ -340,12 +340,12 @@ body {
     margin-top: 0.25em;
   }
 
-  .Like-paw {
+  .likePaw {
     height: 45px;
     width: 45px;
   }
 
-  .User-caption {
+  .userCaption {
     font-size: 1.25em;
     font-family: "Poppins";
     margin-left: 0.5em;
@@ -353,7 +353,7 @@ body {
     cursor: pointer;
   }
 
-  .Cmnts-tease {
+  .cmntsTease {
     font-size: 1.2em;
     font-family: "Poppins";
     margin-left: 0.75em;
@@ -362,7 +362,7 @@ body {
     cursor: pointer;
   }
 
-  .text-dash input {
+  .textDash input {
     font-size: 1.15em;
     font-family: "Poppins";
     color: rgba(0, 0, 0);

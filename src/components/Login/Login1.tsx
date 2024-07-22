@@ -36,7 +36,7 @@ function Login1() {
   return (
     <>
       <div className="splashSection spotlight">
-        <div className="SplashLogoContainer">
+        <div className="splashLogoContainer">
           <img src={colored_logo} alt="" />
         </div>
         <div className="-mt-9 flex flex-col">
