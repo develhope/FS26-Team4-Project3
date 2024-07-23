@@ -1,0 +1,21 @@
+{
+  "name": "petverse-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "npm@8.0.0",
+  "description": "",
+  "devDependencies": {
+    "turbo": "^2.0.7"
+  }
+}
