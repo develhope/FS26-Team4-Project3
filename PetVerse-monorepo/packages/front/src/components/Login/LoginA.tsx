@@ -45,7 +45,7 @@ export default function LoginA() {
 
   return (
     <div className="splashSection flex-auto align-center justify-center">
-      <h2 className="text-3xl font-sans mb-4">Registra il tuo animale</h2>
+      <h2 className="text-3xl font-sans mb-4">Registra il tuo amico!</h2>
       <select
         name="type"
         id="animalReg"
@@ -87,7 +87,7 @@ export default function LoginA() {
           <option value="">Genere</option>
           <option value="Femmina">Femmina</option>
           <option value="Maschio">Maschio</option>
-          <option value="Altro">Altro</option>
+          <option value="Altro">Non so</option>
         </select>
         <input
           type="number"
@@ -103,7 +103,7 @@ export default function LoginA() {
         onClick={handleRegisterAnimal}
         className=" bg-purple w-60 h-12 rounded-lg font-semibold mt-2"
       >
-        REGISTRA ANIMALE
+        REGISTRA PET
       </button>
     </div>
   );

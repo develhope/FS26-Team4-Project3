@@ -9,7 +9,7 @@ type Message = {
   timestamp: Date;
 };
 
-export function Chat() {
+export function FriendChat() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputValue, setInputValue] = useState<string>("");
 
@@ -36,16 +36,34 @@ export function Chat() {
   };
 
   const formatDate = (date: Date) => {
-    return date.toLocaleTimeString("it-IT", {
+    return date.toLocaleString("it-IT", {
       hour: "2-digit",
       minute: "2-digit",
     });
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-blue-500">
+    <div className=" flex flex-col min-h-screen bg-blue-500">
       <ChatHeaderNavbar />
       <div className="flex-grow flex flex-col mt-3">
+        <div className="mt-1 ml-1">
+          <p className="old-message rounded-2xl bg-teal">Ciaooooo</p>
+          <p className="time text-white/50 -mt-2 ml-1">
+            Inviato ieri alle 16:30
+          </p>
+        </div>
+        <div className="mt-2 ml-1">
+          <p className="old-message rounded-2xl bg-teal">Anche tu qui!</p>
+          <p className="time text-white/50 -mt-2 ml-1">
+            Inviato ieri alle 16:30
+          </p>
+        </div>
+        <div className="mt-2 ml-1">
+          <p className="old-message rounded-2xl bg-teal">Come stai?</p>
+          <p className="time text-white/50 -mt-2 ml-1">
+            Inviato ieri alle 16:31
+          </p>
+        </div>
         <div className="flex-grow overflow-y-auto p-3 messages">
           {messages.map((message) => (
             <div key={message.id} className="mb-2">

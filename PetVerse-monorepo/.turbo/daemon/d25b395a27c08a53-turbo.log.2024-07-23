@@ -1,0 +1,372 @@
+2024-07-23T20:14:17.425995Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\1.cookie"), AnchoredSystemPathBuf(".turbo\\cache")}
+2024-07-23T20:14:17.426035Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-23T20:14:17.531056Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\cookies"), AnchoredSystemPathBuf(".turbo\\cookies\\2.cookie"), AnchoredSystemPathBuf("packages\\front"), AnchoredSystemPathBuf("packages\\front\\.turbo"), AnchoredSystemPathBuf("packages\\front\\.turbo\\turbo-dev.log"), AnchoredSystemPathBuf("packages\\server\\.turbo\\turbo-dev.log"), AnchoredSystemPathBuf(".turbo\\cookies\\3.cookie")}
+2024-07-23T20:14:17.531070Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }, WorkspacePackage { name: Other("petverse-server"), path: AnchoredSystemPathBuf("packages\\server") }, WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:14:18.423286Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\vite.config.ts.timestamp-1721765658418-ed73066cb4f6c.mjs"), AnchoredSystemPathBuf("packages\\front")}
+2024-07-23T20:14:18.423302Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:14:18.526731Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T20:14:18.526868Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front"), AnchoredSystemPathBuf("packages\\front\\vite.config.ts.timestamp-1721765658418-ed73066cb4f6c.mjs")}
+2024-07-23T20:14:18.526877Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:14:18.526919Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T20:14:18.731017Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".turbo\\daemon"), AnchoredSystemPathBuf(".turbo")}
+2024-07-23T20:14:18.731029Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2024-07-23T20:14:19.027702Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite"), AnchoredSystemPathBuf("packages\\front"), AnchoredSystemPathBuf("packages\\front\\node_modules"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\package.json")}
+2024-07-23T20:14:19.027719Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:14:19.033251Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T20:14:19.122937Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react-router-dom.js.map"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react-router-dom.js"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\chunk-EQCVQC35.js.map"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react.js"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react-redux.js"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\@reduxjs_toolkit.js"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react-dom_client.js.map"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\@reduxjs_toolkit.js.map"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\chunk-MBVKNQZ2.js"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react-dom_client.js"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react_jsx-runtime.js.map"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\chunk-EQCVQC35.js"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react.js.map"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react_jsx-dev-runtime.js.map"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\chunk-6D7N4TZH.js"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\chunk-6D7N4TZH.js.map"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\chunk-MBVKNQZ2.js.map"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react_jsx-dev-runtime.js"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react_jsx-runtime.js"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\react-redux.js.map")}
+2024-07-23T20:14:19.122958Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:14:19.197382Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T20:14:50.024866Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8\\_metadata.json"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps"), AnchoredSystemPathBuf("packages\\front\\node_modules\\.vite\\deps_temp_533959a8")}
+2024-07-23T20:14:50.024878Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:14:50.092348Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T20:16:12.824823Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:16:12.824833Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:16:16.526780Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:16:16.526808Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:16:33.122787Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:16:33.122799Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:16:46.937856Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T20:16:46.937872Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:16:52.635495Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T20:16:52.635514Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:16:59.225749Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T20:16:59.225765Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:17:08.234621Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:17:08.234637Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:17:38.137875Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T20:17:38.137891Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:17:45.434339Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T20:17:45.434352Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:18:53.733055Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T20:18:53.733067Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:19:13.935702Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:19:13.935715Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:19:29.532969Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T20:19:29.532984Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:21:33.736663Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:21:33.736681Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:21:49.836620Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:21:49.836635Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:22:45.725053Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:22:45.725068Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:23:13.026796Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:23:13.026811Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:23:40.636484Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:23:40.636500Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:25:07.223640Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:25:07.223655Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:25:17.235489Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:25:17.235505Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:25:31.034869Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:25:31.034884Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:26:12.437248Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:26:12.437271Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:26:52.227371Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:26:52.227384Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:26:59.531664Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:26:59.531679Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:30:05.623470Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:30:05.623483Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:30:16.330631Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:30:16.330647Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:30:16.427163Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:30:16.427177Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:30:16.427223Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T20:30:20.027207Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:30:20.027218Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:30:27.526830Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:30:27.526844Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:31:23.523750Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:31:23.523771Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:31:27.832460Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:31:27.832475Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:32:44.531615Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:32:44.531646Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:32:51.435686Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:32:51.435703Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:32:56.222919Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:32:56.222933Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:32:57.929146Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:32:57.929171Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:33:51.629554Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:33:51.629575Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:34:05.336585Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:34:05.336599Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:34:07.730106Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:34:07.730123Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:34:10.124613Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:34:10.124627Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:34:12.833920Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:34:12.833939Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:34:18.037319Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:34:18.037334Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:35:03.933285Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:35:03.933301Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:35:11.526591Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:35:11.526605Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:35:13.936385Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:35:13.936400Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:35:19.335461Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T20:35:19.335495Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:40:46.533443Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx")}
+2024-07-23T20:40:46.533460Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:40:53.337504Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx")}
+2024-07-23T20:40:53.337520Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:41:36.135858Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx")}
+2024-07-23T20:41:36.135868Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:41:39.433563Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx")}
+2024-07-23T20:41:39.433577Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:41:58.937691Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx")}
+2024-07-23T20:41:58.937708Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:42:01.325829Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx")}
+2024-07-23T20:42:01.325845Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:46:39.534032Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx")}
+2024-07-23T20:46:39.534044Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:49:08.639196Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\App.tsx")}
+2024-07-23T20:49:08.639211Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:49:19.830191Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages"), AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:49:19.830205Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:49:30.836765Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:49:30.836778Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:49:56.729051Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:49:56.729071Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:50:03.231994Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\App.tsx")}
+2024-07-23T20:50:03.232009Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:50:15.432182Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\App.tsx")}
+2024-07-23T20:50:15.432201Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:50:39.034768Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx")}
+2024-07-23T20:50:39.034782Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:52:00.031763Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:52:00.031779Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:52:13.130583Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:52:13.130599Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:52:53.723704Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:52:53.723719Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:53:00.427180Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:53:00.427194Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:53:06.333374Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:53:06.333389Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:53:14.330440Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:53:14.330454Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:53:21.732007Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:53:21.732024Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:53:28.229902Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:53:28.229918Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:54:05.223149Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T20:54:05.223166Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:54:13.428275Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:54:13.428292Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:54:32.824221Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T20:54:32.824235Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:54:41.122930Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T20:54:41.122946Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:54:48.429663Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T20:54:48.429678Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:55:09.523816Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:55:09.523831Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:55:28.523505Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:55:28.523520Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:55:44.227686Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:55:44.227700Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:55:49.627496Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:55:49.627509Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:56:46.330752Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:56:46.330764Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:09.032841Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:09.032856Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:09.105049Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T20:57:17.233871Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:17.233886Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:25.136724Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:25.136784Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:31.334453Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:31.334465Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:35.037436Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:35.037453Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:37.336837Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:37.336850Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:44.330773Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:44.330791Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:44.423725Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:44.423736Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:44.423788Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T20:57:51.826031Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:51.826047Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:51.924803Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:51.924817Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:51.924865Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T20:57:54.335004Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:54.335019Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:57:56.823772Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:57:56.823787Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:58:10.431233Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:58:10.431247Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:58:18.332074Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:58:18.332088Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:58:35.525693Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:58:35.525707Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:58:38.524800Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:58:38.524814Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:58:38.634852Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:58:38.634865Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:58:38.634909Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T20:58:43.329695Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:58:43.329709Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:58:44.930176Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:58:44.930190Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:59:36.036767Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:59:36.036781Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:59:44.626161Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:59:44.626176Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T20:59:50.223540Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T20:59:50.223555Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:00:12.726356Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:00:12.726368Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:00:26.137923Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:00:26.137938Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:00:28.625929Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:00:28.625947Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:00:31.933259Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:00:31.933273Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:00:35.727919Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:00:35.727934Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:00:35.747909Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T21:00:38.824694Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:00:38.824709Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:00:38.887502Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T21:00:43.925798Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:00:43.925812Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:00:50.028890Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:00:50.028905Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:01:46.635114Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T21:01:46.635133Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:02:14.937373Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:02:14.937391Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:02:21.035933Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:02:21.035948Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:02:28.724279Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:02:28.724294Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:02:28.826773Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:02:28.826786Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:02:28.826837Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T21:02:37.728306Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:02:37.728323Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:02:41.723534Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:02:41.723552Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:02:41.788880Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T21:04:28.928268Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T21:04:28.928284Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:04:50.325576Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T21:04:50.325588Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:06:03.432068Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T21:06:03.432084Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:06:43.532387Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:06:43.532400Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:07:05.237559Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:07:05.237573Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:07:17.535258Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:07:17.535273Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:07:25.437235Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:07:25.437251Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:07:35.035886Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:07:35.035901Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:07:41.531738Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:07:41.531754Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:07:55.637661Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:07:55.637675Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:08:00.135933Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:08:00.135951Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:08:02.535106Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:08:02.535120Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:08:09.232434Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:08:09.232451Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:08:16.625625Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:08:16.625640Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:08:26.932449Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:08:26.932463Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:08:31.238797Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:08:31.238811Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:08:35.125732Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:08:35.125749Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:08:38.228759Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:08:38.228778Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:09:45.226169Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:09:45.226183Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:09:47.934635Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:09:47.934648Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:09:52.438174Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:09:52.438189Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:10:18.430905Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:10:18.430915Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:10:24.231336Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:10:24.231348Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:10:29.427949Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:10:29.427964Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:10:43.928555Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:10:43.928570Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:10:48.629840Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:10:48.629860Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:11:01.623525Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:11:01.623539Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:11:23.632477Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:11:23.632493Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:11:29.436291Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:11:29.436307Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:11:32.032325Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:11:32.032339Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:11:51.637767Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:11:51.637779Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:12:12.026975Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\Chat.tsx")}
+2024-07-23T21:12:12.026991Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:12:41.429258Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:12:41.429273Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:12:49.635486Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\chat.css")}
+2024-07-23T21:12:49.635499Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:13:01.436666Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:13:01.436681Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:13:06.230044Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:13:06.230056Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:13:18.236912Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:13:18.236925Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:13:28.327339Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:13:28.327353Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:13:33.136450Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:13:33.136467Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:13:41.026334Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\FriendChat.tsx")}
+2024-07-23T21:13:41.026348Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:14:02.223948Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx")}
+2024-07-23T21:14:02.223963Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:14:20.128924Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx"), AnchoredSystemPathBuf("packages\\front\\.turbo\\turbo-dev.log")}
+2024-07-23T21:14:20.128942Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:14:20.190132Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T21:14:38.429471Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx")}
+2024-07-23T21:14:38.429486Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:14:45.729762Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Messages\\MessageCenter.tsx")}
+2024-07-23T21:14:45.729778Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:14:45.750869Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2024-07-23T21:17:09.528218Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Navbars\\ChatHeaderNavbar.tsx")}
+2024-07-23T21:17:09.528233Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:17:22.927925Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Navbars\\ChatHeaderNavbar.tsx")}
+2024-07-23T21:17:22.927940Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:17:34.031476Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Navbars\\ChatHeaderNavbar.tsx")}
+2024-07-23T21:17:34.031496Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:19:10.522963Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Login\\LoginA.tsx")}
+2024-07-23T21:19:10.522984Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:19:45.728652Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Login\\LoginA.tsx")}
+2024-07-23T21:19:45.728666Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:19:53.822984Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Login\\LoginA.tsx")}
+2024-07-23T21:19:53.822994Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:20:01.332083Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Login\\LoginA.tsx")}
+2024-07-23T21:20:01.332093Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:20:08.533510Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Login\\LoginA.tsx")}
+2024-07-23T21:20:08.533533Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:20:31.827892Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Login\\LoginA.tsx")}
+2024-07-23T21:20:31.827903Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:20:43.028753Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Login\\LoginA.tsx")}
+2024-07-23T21:20:43.028768Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:20:51.931525Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Login\\LoginA.tsx")}
+2024-07-23T21:20:51.931536Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:20:57.925613Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Login\\LoginA.tsx")}
+2024-07-23T21:20:57.925627Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
+2024-07-23T21:21:04.823712Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages\\front\\src\\components\\Login\\LoginA.tsx")}
+2024-07-23T21:21:04.823724Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("petverse-front"), path: AnchoredSystemPathBuf("packages\\front") }}))
