@@ -31,13 +31,8 @@ export function PostMain() {
               className="flex ml-auto mr-auto w-96"
             />
           </div>
-          <div className="Reaction-icons">
-            <img src={paw} alt="like" className="Like-paw" />
-            <img src={comments} alt="comment" className="React-comnts" />
-            <img src={share} alt="share" className="Share-icon" />
-          </div>
           <div>
-            <p className="User-caption">
+            <p className="User-caption mt-3 mb-5">
               <strong>username:</strong>
               <span>
                 <input type="text" placeholder="scrivi qualcosa qui" />
