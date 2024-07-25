@@ -7,9 +7,11 @@ import "../Cards/card.css";
 
 type CardFeedProps = {
   img: string;
+  nickname: string;
+  post: string;
 };
 
-export function CardFeed({ img }: CardFeedProps) {
+export function CardFeed({ img, nickname, post }: CardFeedProps) {
   const [isLiked, setIsLiked] = useState(false);
 
   const handleLikeClick = () => {
@@ -33,7 +35,8 @@ export function CardFeed({ img }: CardFeedProps) {
       </div>
       <div className="textDash">
         <p className="userCaption">
-          <strong>nickname:</strong> didascalia post
+          <strong>{nickname}</strong>
+          {post}
         </p>
         <p className="cmntsTease ml-2.5">Vedi i commenti</p>
         <input

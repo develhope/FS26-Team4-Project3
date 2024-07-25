@@ -1,14 +1,11 @@
 import { useState } from "react";
-import ai6 from "../../assets/random_imgs/ai6.jpg";
-import ai9 from "../../assets/random_imgs/ai9.jpg";
-import ai8 from "../../assets/random_imgs/ai8.jpg";
-import ai11 from "../../assets/random_imgs/ai11.jpg";
-import ai4 from "../../assets/random_imgs/ai4.jpg";
-import ai7 from "../../assets/random_imgs/ai7.jpg";
+import galleria1 from "../../assets/random_imgs/galleria1.jpg";
+import galleria2 from "../../assets/random_imgs/galleria2.jpg";
+import galleria3 from "../../assets/random_imgs/galleria3.jpg";
+import galleria4 from "../../assets/random_imgs/galleria4.jpg";
+import galleria5 from "../../assets/random_imgs/galleria5.jpg";
+import galleria6 from "../../assets/random_imgs/galleria6.jpg";
 import emptyphoto from "../../assets/random_imgs/emptyphoto.png";
-import paw from "../../assets/post/paw.png";
-import comments from "../../assets/post/comments.png";
-import share from "../../assets/post/share.png";
 import "../Posts/posts.css";
 import EditorHeaderNavbar from "../Navbars/EditorHeaderNavbar";
 import FooterNavbar from "../Navbars/FooterNavbar";
@@ -33,7 +30,7 @@ export function PostMain() {
           </div>
           <div>
             <p className="User-caption mt-3 mb-5">
-              <strong>username:</strong>
+              <strong>futura:</strong>
               <span>
                 <input type="text" placeholder="scrivi qualcosa qui" />
               </span>
@@ -44,34 +41,34 @@ export function PostMain() {
           <h3>Seleziona immagine:</h3>
           <div className="Imgs-block rounded">
             <img
-              src={ai6}
+              src={galleria1}
               alt="img-ai-1"
-              onClick={() => handleImageClick(ai6)}
+              onClick={() => handleImageClick(galleria1)}
             />
             <img
-              src={ai9}
+              src={galleria2}
               alt="img-ai-2"
-              onClick={() => handleImageClick(ai9)}
+              onClick={() => handleImageClick(galleria2)}
             />
             <img
-              src={ai8}
+              src={galleria3}
               alt="img-ai-3"
-              onClick={() => handleImageClick(ai8)}
+              onClick={() => handleImageClick(galleria3)}
             />
             <img
-              src={ai11}
+              src={galleria4}
               alt="img-ai-4"
-              onClick={() => handleImageClick(ai11)}
+              onClick={() => handleImageClick(galleria4)}
             />
             <img
-              src={ai4}
+              src={galleria5}
               alt="img-ai-5"
-              onClick={() => handleImageClick(ai4)}
+              onClick={() => handleImageClick(galleria5)}
             />
             <img
-              src={ai7}
+              src={galleria6}
               alt="img-ai-6"
-              onClick={() => handleImageClick(ai7)}
+              onClick={() => handleImageClick(galleria6)}
             />
           </div>
         </div>

@@ -22,7 +22,7 @@ export default function ChatHeaderNavbar() {
           <img src={dog} alt="go to user profile" height={70} width={70} />
         </button>
         <button>
-          <h3 className="pr-7 text-white font-bold">User 1</h3>
+          <h3 className="pr-7 text-white font-bold">Rex</h3>
         </button>
       </div>
       <div className="h-1 bg-gradient-to-r from-navbar-line-start via-navbar-line-middle to-navbar-line-end"></div>

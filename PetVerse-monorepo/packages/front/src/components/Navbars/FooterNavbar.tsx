@@ -2,7 +2,7 @@ import search from "../../assets/navbar/search.png";
 import add from "../../assets/navbar/add.png";
 import original_logo from "../../assets/logo/original_logo.png";
 import message from "../../assets/navbar/message.png";
-import cat from "../../assets/user_avatars/cat.png";
+import dog from "../../assets/user_avatars/dog.png";
 import { Link } from "react-router-dom";
 
 export default function FooterNavbar() {
@@ -33,7 +33,7 @@ export default function FooterNavbar() {
       </Link>
       <Link to="/profilepage">
         <button>
-          <img src={cat} alt="go to profile page" height={55} width={55} />
+          <img src={dog} alt="go to profile page" height={55} width={55} />
         </button>
       </Link>
     </div>
