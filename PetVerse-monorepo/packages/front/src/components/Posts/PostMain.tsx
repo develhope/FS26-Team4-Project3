@@ -1,5 +1,5 @@
 import { useState } from "react";
-import galleria1 from "../../assets/random_imgs/galleria1.jpg";
+import futura from "../../assets/random_imgs/futura.jpg";
 import galleria2 from "../../assets/random_imgs/galleria2.jpg";
 import galleria3 from "../../assets/random_imgs/galleria3.jpg";
 import galleria4 from "../../assets/random_imgs/galleria4.jpg";
@@ -41,9 +41,9 @@ export function PostMain() {
           <h3>Seleziona immagine:</h3>
           <div className="Imgs-block rounded">
             <img
-              src={galleria1}
+              src={futura}
               alt="img-ai-1"
-              onClick={() => handleImageClick(galleria1)}
+              onClick={() => handleImageClick(futura)}
             />
             <img
               src={galleria2}
