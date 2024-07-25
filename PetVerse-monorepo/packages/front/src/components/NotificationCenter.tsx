@@ -33,7 +33,7 @@ export default function NotificationCenter() {
             <strong>User</strong> ha accettato la tua richiesta di amicizia!
           </p>
         </div>
-        <Link to="/friendchat">
+        <Link to="/messagecenter">
           <div className="bg-lightblue/80 text-white min-w-screen rounded-md text-md p-3 mb-2 ml-2 mr-2">
             <p>
               <strong>User 1</strong> ti ha inviato un messaggio.
