@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function EditorHeaderNavbar() {
   return (
     <>
-      <div className="bg-blue h-14 w-full px-7 flex flex-row justify-between items-center">
+      <div className="bg-blue h-14 w-full px-3 flex flex-row justify-between items-center">
         <Link to="/feed">
           <button>
             <img src={arrow} alt="go back" height={50} width={50} />

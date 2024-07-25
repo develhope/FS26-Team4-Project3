@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import notifications from "../../assets/navbar/notifications.png";
 // import line from "../../assets/navbar/colored_band.png";
 
@@ -63,14 +64,16 @@ export default function FeedHeaderNavbar() {
         <button>
           <h2 className="text-white font-semibold text-xl">PetVerse</h2>
         </button>
-        <button>
-          <img
-            src={notifications}
-            alt="go to settings"
-            height={36}
-            width={36}
-          />
-        </button>
+        <Link to="/notifications">
+          <button>
+            <img
+              src={notifications}
+              alt="go to settings"
+              height={36}
+              width={36}
+            />
+          </button>
+        </Link>
       </div>
       <div className="h-1 bg-gradient-to-r from-navbar-line-start via-navbar-line-middle to-navbar-line-end"></div>
     </nav>

@@ -24,6 +24,7 @@ import "./index.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { UserProvider } from "./assets/custom-hooks/LoginContext";
 import { FriendChat } from "./components/Messages/FriendChat";
+import NotificationCenter from "./components/NotificationCenter";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
               <Route path="/chat" element={<Chat />} />
               <Route path="/settings" element={<SettingsMainPage />} />
               <Route path="/friendchat" element={<FriendChat />} />
+              <Route path="/notifications" element={<NotificationCenter />} />
               <Route
                 path="/settings/accountmanagement"
                 element={<AccountManagement />}

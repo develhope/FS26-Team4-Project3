@@ -5,7 +5,7 @@ import new_message from "../../assets/navbar/new_message.png";
 export default function MessagesHeaderNavbar() {
   return (
     <>
-      <div className="bg-blue h-14 w-full px-7 flex flex-row justify-between items-center">
+      <div className="bg-blue h-14 w-full px-3 flex flex-row justify-between items-center">
         <Link to="/feed">
           <button>
             <img

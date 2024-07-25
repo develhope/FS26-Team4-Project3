@@ -24,7 +24,7 @@ export default function SettingsMainPage() {
             </span>
           </li>
           <Link to="/settings/notification">
-            <li className="flex items-center justify-between">
+            <li className="flex items-center justify-between mt-2">
               <span>Notifiche</span>
               <span className="ml-auto">
                 <span className="mr-2">{">"}</span>
@@ -38,7 +38,7 @@ export default function SettingsMainPage() {
             </span>
           </li>
           <Link to="/settings/privacyaccount">
-            <li className="flex items-center justify-between">
+            <li className="flex items-center justify-between mt-2">
               <span>Privacy dell'account</span>
               <span className="ml-auto">
                 <span className="mr-2">{">"}</span>
@@ -46,7 +46,7 @@ export default function SettingsMainPage() {
             </li>
           </Link>
           <Link to="/settings/friends">
-            <li className="flex items-center justify-between">
+            <li className="flex items-center justify-between mt-2">
               <span>Amici</span>
               <span className="ml-auto">
                 <span className="mr-2">{">"}</span>
@@ -54,7 +54,7 @@ export default function SettingsMainPage() {
             </li>
           </Link>
           <Link to="/settings/interactions">
-            <li className="flex items-center justify-between">
+            <li className="flex items-center justify-between mt-2">
               <span>Interazioni</span>
               <span className="ml-auto">
                 <span className="mr-2">{">"}</span>
@@ -62,7 +62,7 @@ export default function SettingsMainPage() {
             </li>
           </Link>
           <Link to="/settings/language">
-            <li className="flex items-center justify-between">
+            <li className="flex items-center justify-between mt-2">
               <span>Lingua</span>
               <span className="ml-auto">
                 <span className="mr-2">{">"}</span>
@@ -70,7 +70,7 @@ export default function SettingsMainPage() {
             </li>
           </Link>
           <Link to="/settings/help">
-            <li className="flex items-center justify-between">
+            <li className="flex items-center justify-between mt-2">
               <span>Aiuto</span>
               <span className="ml-auto">
                 <span className="mr-2">{">"}</span>
@@ -88,7 +88,7 @@ export default function SettingsMainPage() {
             </span>
           </li>
           <Link to="/login1">
-            <li className="flex items-center justify-between">
+            <li className="flex items-center justify-between mt-2">
               <span>Esci</span>
               <span className="ml-auto">
                 <span className="mr-2">{">"}</span>

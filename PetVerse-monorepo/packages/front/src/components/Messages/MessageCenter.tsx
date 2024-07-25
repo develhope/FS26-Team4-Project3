@@ -23,25 +23,11 @@ export function MessageCenter() {
               <Link to="/friendchat" className="flex items-center">
                 <img src={dog} alt="" />
                 <div>
-                  <h3>Utente 1</h3>
+                  <h3>User 1</h3>
                   <p>Anteprima Messaggio</p>
                 </div>
               </Link>
             </li>
-            {/*             <li className="Pop-mess rounded-lg">
-              <img src={cat} alt="" />
-              <div>
-                <h3>Utente 2</h3>
-                <p>Anteprima Messaggio</p>
-              </div>
-            </li>
-            <li className="Pop-mess rounded-lg">
-              <img src={fish} alt="" />
-              <div>
-                <h3>Utente 3</h3>
-                <p>Anteprima Messaggio</p>
-              </div>
-            </li> */}
           </ul>
         </div>
       </div>
