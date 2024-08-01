@@ -1,0 +1,614 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  height: 100vh;
+}
+body {
+  background-color: #252342;
+  margin: 0;
+}
+
+@media (max-width: 400px) and (max-height: 900px) {
+  .splashSection {
+    color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    height: 100vh;
+    gap: 1rem;
+    z-index: 0;
+  }
+
+  .splashLogoContainer {
+    height: fit-content;
+    width: 20rem;
+  }
+
+  .splashForm,
+  .splashForm-select {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    fill: none;
+    border: 2px solid #e2e8f0;
+    border-radius: 0.5rem;
+  }
+
+  .splashForm-select {
+    width: 14.474rem;
+  }
+
+  .generalFocus:focus {
+    background-color: #252342;
+    color: #e2e8f0;
+  }
+
+  .splashForm:focus,
+  .splashForm-select:focus {
+    background-color: #252342;
+    color: #e2e8f0;
+    outline: none;
+  }
+  .welcomeText h2 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .splashForm svg {
+    margin-left: 10px;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .welcomeText {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .formContainer {
+    align-items: center;
+  }
+  .splashFormContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input[type="text"]::placeholder,
+  input[type="email"]::placeholder {
+    color: #e2e8f0;
+    background-color: transparent;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="select"] {
+    background-color: transparent;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .spotlight {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .spotlight::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../src/assets/splash/spotlight.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .splashSpotlight {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url("../src/assets/splash/spotlight.png");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  input::placeholder {
+    color: #e2e8f0;
+    background-color: transparent;
+  }
+
+  input {
+    background-color: transparent;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  input[type="password"]::placeholder {
+    color: #e2e8f0;
+    background-color: transparent;
+  }
+
+  input[type="password"] {
+    background-color: transparent;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  input[type="number"] {
+    background-color: transparent;
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  input[type="number"]::placeholder {
+    color: #e2e8f0;
+    background-color: transparent;
+  }
+
+  input[type="date"] {
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    width: 14rem;
+    height: 3rem;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 0.5rem;
+    outline: none;
+  }
+
+  input[type="date"]:focus {
+    background-color: #252342;
+    color: #e2e8f0;
+    border-color: #e2e8f0;
+  }
+
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+  }
+
+  .Post {
+    max-width: 25rem;
+    min-width: 25rem;
+    height: fit-content;
+    background-color: white;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Random-img {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .Reaction-icons {
+    display: flex;
+    margin-left: 0.25em;
+    margin-top: 0.5em;
+    gap: 0.75em;
+    margin-bottom: 1em;
+    cursor: pointer;
+  }
+
+  .React-comnts {
+    width: 40px;
+  }
+
+  .Share-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 0.25em;
+  }
+
+  .likePaw {
+    height: 45px;
+    width: 45px;
+  }
+
+  .userCaption {
+    font-size: 1.25em;
+    font-family: "Poppins";
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+  }
+
+  .cmntsTease {
+    font-size: 1.2em;
+    font-family: "Poppins";
+    margin-left: 0.75em;
+    margin-bottom: 0.5em;
+    opacity: 50%;
+    cursor: pointer;
+  }
+
+  .textDash input {
+    font-size: 1.15em;
+    font-family: "Poppins";
+    color: rgba(0, 0, 0);
+    margin-top: -1em;
+    border: none;
+  }
+
+  .text-dash input::placeholder {
+    font-size: 1.15em;
+    font-family: "Poppins";
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .text-dash input:focus {
+    border: none;
+    outline: none;
+  }
+
+  .Send-mess {
+    background-color: #484373;
+    display: flex;
+    width: fit-content;
+    width: 30em;
+    margin-bottom: 0.75em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Send-mess img {
+    margin-left: 2em;
+    width: 35px;
+    height: 35px;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  .Send-mess input {
+    width: 25em;
+    font-size: 1em;
+    font-family: "Poppins";
+    color: white;
+    border: none;
+  }
+
+  .Send-mess input::placeholder {
+    font-size: 1.15em;
+    font-family: "Poppins";
+    color: white;
+  }
+
+  .Send-mess input:focus {
+    border: none;
+    outline: none;
+  }
+
+  .Chatting-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 50vh;
+  }
+
+  .Messages {
+    margin-left: auto;
+  }
+
+  .Message {
+    background-color: #484373;
+    color: white;
+    margin-right: 0.75em;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    word-wrap: break-word;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    width: 20em;
+  }
+
+  .Searching {
+    display: flex;
+    background-color: #484373;
+    width: 25em;
+    margin-top: 3em;
+  }
+  .Searching img {
+    width: 25px;
+    height: 25px;
+    margin-top: 0.75em;
+    margin-left: 0.75em;
+  }
+
+  .Searching input {
+    font-size: 1em;
+    font-family: "Poppins";
+    color: white;
+    border: none;
+  }
+
+  .Searching input::placeholder {
+    font-size: 1.15em;
+    font-family: "Poppins";
+    color: white;
+  }
+
+  .Searching input:focus {
+    border: none;
+    outline: none;
+  }
+
+  .Message-center {
+    font-family: "Poppins";
+    color: white;
+  }
+
+  .Message-center h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .Pop-mess {
+    background-color: #484373;
+    width: 25em;
+    align-items: center;
+    display: flex;
+    margin-bottom: 0.5em;
+    height: 5em;
+  }
+
+  .Pop-mess img {
+    margin-right: 0.5em;
+    margin-left: -0.5em;
+    width: 100px;
+  }
+
+  .Pop-mess div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Pop-mess h3 {
+    font-family: "Poppins";
+    font-weight: bold;
+
+    font-size: 1.25em;
+  }
+
+  .Pop-mess p {
+    font-family: "Poppins";
+    margin: 0;
+
+    font-size: 1.05em;
+  }
+
+  .Imgs-selector h3 {
+    font-size: 1.2em;
+    font-family: "Poppins";
+    margin-bottom: 0.25em;
+    color: white;
+    background-color: #474e74;
+    padding: 0.25em;
+    cursor: none;
+  }
+
+  .Imgs-block img {
+    width: 10em;
+    margin-bottom: 0.65em;
+    cursor: pointer;
+  }
+
+  .Imgs-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    background-color: rgba(74, 78, 116, 0.5);
+    padding-top: 0.5em;
+  }
+
+  .Post {
+    width: 30em;
+    height: fit-content;
+    background-color: white;
+    margin-top: 0.75em;
+    padding: 1em;
+    margin-bottom: 0.75em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Random-img {
+    height: 32vh;
+    width: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .Reaction-icons {
+    display: flex;
+    margin-left: 0.25em;
+    margin-top: 0.5em;
+    gap: 0.75em;
+    margin-bottom: 1em;
+    cursor: pointer;
+  }
+
+  .React-comnts {
+    width: 40px;
+  }
+
+  .Share-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 0.25em;
+  }
+
+  .Like-paw {
+    height: 45px;
+    width: 45px;
+  }
+
+  .User-caption {
+    font-size: 1.25em;
+    font-family: "Poppins";
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+  }
+  .User-caption input {
+    color: black;
+    border: none;
+    margin-left: -0.5em;
+  }
+
+  .User-caption input::placeholder {
+    font-size: 1.25em;
+    font-family: "Poppins";
+    color: black;
+  }
+
+  .User-caption input:focus {
+    border: none;
+    outline: none;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

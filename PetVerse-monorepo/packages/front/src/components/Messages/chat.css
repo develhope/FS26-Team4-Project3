@@ -1,0 +1,50 @@
+.send-mess {
+  background-color: #484373;
+}
+
+.send-mess input {
+  width: 25em;
+  font-size: 1em;
+  color: white;
+  border: none;
+  background-color: #484373;
+}
+
+.send-mess input::placeholder {
+  font-size: 1.15em;
+  color: white;
+}
+
+.send-mess input:focus {
+  border: none;
+  outline: none;
+}
+
+.messages {
+  margin-left: auto;
+}
+
+.message {
+  background-color: #484373;
+  color: white;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  width: 10em;
+}
+
+.old-message {
+  color: white;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  width: 8.5rem;
+}
+
+.time {
+  font-size: 0.7rem;
+}

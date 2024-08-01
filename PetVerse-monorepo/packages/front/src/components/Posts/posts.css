@@ -1,0 +1,92 @@
+.Imgs-selector h3 {
+  font-size: 1.2em;
+  font-family: "Poppins";
+  margin-bottom: 0.25em;
+  color: white;
+  background-color: #474e74;
+  padding: 0.25em;
+  cursor: none;
+}
+
+.Imgs-block img {
+  width: 10em;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.Imgs-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  background-color: rgba(74, 78, 116, 0.5);
+  padding-top: 0.15em;
+}
+
+.Post {
+  width: 30em;
+  height: fit-content;
+  background-color: white;
+  margin-top: 0.75em;
+  padding: 1em;
+  margin-bottom: 0.75em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Reaction-icons {
+  display: flex;
+  margin-left: 0.25em;
+  margin-top: 0.5em;
+  gap: 0.75em;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.React-comnts {
+  width: 40px;
+}
+
+.Share-icon {
+  width: 40px;
+  height: 40px;
+  margin-top: 0.25em;
+}
+
+.Like-paw {
+  height: 45px;
+  width: 45px;
+}
+
+.User-caption {
+  font-size: 1.25em;
+  font-family: "Poppins";
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+.User-caption input {
+  color: black;
+  border: none;
+  margin-left: 0.25rem;
+}
+
+.User-caption input::placeholder {
+  font-size: 1.25em;
+  font-family: "Poppins";
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.User-caption input:focus {
+  border: none;
+  outline: none;
+}
+
+.post-container {
+  max-width: 25rem;
+  min-width: 25rem;
+  height: fit-content;
+  background-color: white;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
